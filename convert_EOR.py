@@ -130,7 +130,6 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
                     rdf_graph.add((URIRef(event_URI), URIRef('http://purl.org/dc/terms/date'), Literal(verified_date_str_no_time, datatype=XSD.date)))
                     num_date += 1
 
-
                 if feature['geometry'].get('coordinates'):
                     num_coordinates += 1
                     lng, lat = feature["geometry"]["coordinates"]
@@ -203,6 +202,7 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
                     if city_name in geoname_uri_mappings:
                         city_uri = URIRef(geoname_uri_mappings[city_name])
                         rdf_graph.add((URIRef(event_URI), sdo_namespace.location, city_uri))
+                        rdf_graph.add((city_uri, RDF.type, sdo_namespace.Place))
                         num_city += 1
                     else:
                         # geonames_url = f'http://api.geonames.org/searchJSON?q={city_name}&maxRows=1&username={username}'
