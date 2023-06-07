@@ -20,8 +20,12 @@ GEONAMES_API_URL = 'http://api.geonames.org/searchJSON'
 GEONAMES_USERNAME = username
 # Define namespaces
 # Registratie: linked4resilience.eu
-l4r_eor_namespace = Namespace("https://linked4resilience.eu/data/EOR/April2023/")
+l4r_eor_namespace_event = Namespace("https://linked4resilience.eu/data/EOR/April2023/event/")
+l4r_eor_namespace_location = Namespace("https://linked4resilience.eu/data/EOR/April2023/location/")
+l4r_eor_namespace_geo = Namespace("https://linked4resilience.eu/data/EOR/April2023/geo/")
 l4r_o_namespace = Namespace("https://linked4resilience.eu/ontology/")
+
+
 sem_namespace = Namespace("http://semanticweb.cs.vu.nl/2009/11/sem/")
 
 gno_namespace = Namespace('http://www.geonames.org/ontology#')
@@ -35,8 +39,11 @@ rdf_graph = Graph()
 
 # Bind namespaces
 # Appraoch 1
-rdf_graph.bind("l4r", l4r_eor_namespace)
+rdf_graph.bind("l4revent", l4r_eor_namespace_event)
+rdf_graph.bind("l4rlocation", l4r_eor_namespace_location)
+rdf_graph.bind("l4rgeo", l4r_eor_namespace_geo)
 rdf_graph.bind("l4ro", l4r_o_namespace)
+
 rdf_graph.bind("xsd", XSD)
 rdf_graph.bind('gno', gno_namespace)
 rdf_graph.bind('gni', gni_namespace)
@@ -46,7 +53,7 @@ rdf_graph.bind('rdfs', RDFS)
 
 # Appraoch 2
 # namespace_manager = NamespaceManager(rdf_graph)
-# namespace_manager.bind("l4r", l4r_eor_namespace, override=False)
+# namespace_manager.bind("l4r", l4r_eor_namespace_event, override=False)
 # namespace_manager.bind("l4ro", l4r_o_namespace, override=False)
 # namespace_manager.bind("xsd", XSD, override=False)
 # namespace_manager.bind('gno', gno_namespace, override=False)
@@ -65,16 +72,21 @@ num_label = 0
 num_postalCode = 0
 num_country = 0
 num_coordinates = 0
+
 num_prov = 0
 # cities
 num_city = 0
-num_cities_found_in_geonames_mapping = 0
+num_cities_original_EoR = 0
 cities_not_found = set()
 # social media content
 num_url = 0
 num_validated_url = 0
 num_broken_url_link = 0
 
+
+event_id = 1
+location_id = 1
+geo_id = 1
 
 
 with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as original_ukrainian_cities:
@@ -90,7 +102,7 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
         data = json.load(fjson)
 
         # Initialize an event ID counter
-        event_id = 1
+
 
         # Loop through the features in the JSON file
         for feature in data['features']:
@@ -100,7 +112,7 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
             if feature["properties"].get("country") == "Ukraine":
 
                 num_entry +=1
-                event_URI = l4r_eor_namespace + str(event_id).zfill(8)
+                event_URI = l4r_eor_namespace_event + str(event_id).zfill(8)
                 comment_in_preparation = ''
                 # print ('this event has URI: ', event_URI)
                 # print ('event id = ', event_id)
@@ -124,10 +136,23 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
                     lng, lat = feature["geometry"]["coordinates"]
                     # print ('\t lng: ', lng)
                     # print ('\t lat: ', lat)
-                    rdf_graph.add((URIRef(event_URI), sdo_namespace.latitude, Literal(lat, datatype=XSD.float))) # updated from lat
+
+                    # event schema:location L
+                    location_URI = l4r_eor_namespace_location + str(location_id).zfill(8)
+                    location_id += 1
+                    rdf_graph.add((URIRef(event_URI), sdo_namespace.location, URIRef(location_URI))) # updated from lat
+
+                    geo_URI = l4r_eor_namespace_geo + str(geo_id).zfill(8)
+                    geo_id += 1
+                    rdf_graph.add((URIRef(location_URI), RDF.type, sdo_namespace.Place)) #
+                    rdf_graph.add((URIRef(location_URI), sdo_namespace.geo, URIRef(geo_URI))) #
+
+                    rdf_graph.add((URIRef(geo_URI), RDF.type, sdo_namespace.GeoCoordinates)) #
+
+                    rdf_graph.add((URIRef(geo_URI), sdo_namespace.latitude, Literal(lat, datatype=XSD.float))) # updated from lat
                     # print ('\tlat', Literal(lat, datatype=XSD.float))
 
-                    rdf_graph.add((URIRef(event_URI), sdo_namespace.longitude, Literal(lng, datatype=XSD.float))) # updated from lng
+                    rdf_graph.add((URIRef(geo_URI), sdo_namespace.longitude, Literal(lng, datatype=XSD.float))) # updated from lng
                     # print ('\tlng', Literal(lng, datatype=XSD.float))
 
 
@@ -173,12 +198,12 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
                         print ('this event has URI: ', event_URI)
 
                 if feature["properties"].get("city"):
-                    num_city += 1
+                    num_cities_original_EoR += 1
                     city_name = feature['properties']['city']
                     if city_name in geoname_uri_mappings:
                         city_uri = URIRef(geoname_uri_mappings[city_name])
-                        rdf_graph.add((URIRef(event_URI), sdo_namespace.addressLocality, city_uri))
-                        num_cities_found_in_geonames_mapping += 1
+                        rdf_graph.add((URIRef(event_URI), sdo_namespace.location, city_uri))
+                        num_city += 1
                     else:
                         # geonames_url = f'http://api.geonames.org/searchJSON?q={city_name}&maxRows=1&username={username}'
                         # response = requests.get(geonames_url).json()
@@ -190,7 +215,7 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
                         #     rdf_graph.add((URIRef(event_URI), sdo_namespace.addressLocality, city_uri))
                         #     print ('the city URI ', city_uri)
                         # else:
-                        print ('Failed to find the city: ', city_name)
+                        # print ('Failed to find the city: ', city_name)
                         cities_not_found.add(city_name)
                         comment_in_preparation += 'According to Eyes on Russia, this event happened in '+ city_name +'. '
                         # city_uri = Literal(city_name)
@@ -233,9 +258,9 @@ print ('#country', num_country)
 print ('#date ', num_date)
 print ('#coordinates ', num_coordinates)
 print ('#province ', num_prov)
-print ('#city ', num_city)
-print ('num_cities_found_in_geonames_mapping ', num_cities_found_in_geonames_mapping)
-print ('#(set of) cities not found ', len(cities_not_found))
+print ('num_cities_original_EoR ', num_cities_original_EoR)
+print ('#city (found in Geonames)', num_city)
+print ('#(unique) cities not found ', len(cities_not_found))
 # for c in cities_not_found:
 #     print (c)
 print ('count URL: ', num_url)
