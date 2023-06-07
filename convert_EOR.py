@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 from rdflib import FOAF, RDFS, Graph, Literal, Namespace, RDF, URIRef
-from rdflib.namespace import XSD
+from rdflib.namespace import XSD, RDFS, RDF
 import json
 from datetime import datetime
 import urllib.parse
@@ -8,7 +8,6 @@ import requests
 import validators
 import requests
 
-from rdflib.namespace import RDFS, RDF
 from rdflib.namespace import NamespaceManager
 
 
@@ -78,8 +77,13 @@ num_broken_url_link = 0
 
 
 
-with open('datasets/ukrainian_geoname_uri_mappings.json', 'r') as ukrainian_cities:
-    geoname_uri_mappings = json.load(ukrainian_cities)
+with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as original_ukrainian_cities:
+    original_geoname_uri_mappings = json.load(original_ukrainian_cities)
+    with open('datasets/extended-ukrainian-geoname-uri-mappings.json', 'r') as extended_ukrainian_cities:
+        extended_geoname_uri_mappings = json.load(extended_ukrainian_cities)
+
+        original_geoname_uri_mappings.update(extended_geoname_uri_mappings)
+        geoname_uri_mappings = original_geoname_uri_mappings
 
     # Open the JSON file
     with open("datasets/EOR-2023-04-30.geojson") as fjson:
@@ -111,7 +115,7 @@ with open('datasets/ukrainian_geoname_uri_mappings.json', 'r') as ukrainian_citi
                     # print ('\tverified obj: ', verified_date_obj)
                     # print ('\tdate of event: ', verified_date_str_no_time)
 
-                    rdf_graph.add((URIRef(event_URI), sdo_namespace.date, Literal(verified_date_str_no_time, datatype=XSD.date)))
+                    rdf_graph.add((URIRef(event_URI), URIRef('http://purl.org/dc/terms/date'), Literal(verified_date_str_no_time, datatype=XSD.date)))
                     num_date += 1
 
 
@@ -134,7 +138,7 @@ with open('datasets/ukrainian_geoname_uri_mappings.json', 'r') as ukrainian_citi
                     num_vio += 1
 
                 if feature["properties"].get("description"):
-                    rdf_graph.add((URIRef(event_URI), RDFS.label, Literal(feature["properties"]['description'])))
+                    rdf_graph.add((URIRef(event_URI), RDFS.label, Literal(feature["properties"]['description'], lang="en")))
                     # print ('\thas rdfs:label: ', Literal(feature["properties"]['description']))
                     num_label += 1
 
@@ -176,25 +180,25 @@ with open('datasets/ukrainian_geoname_uri_mappings.json', 'r') as ukrainian_citi
                         rdf_graph.add((URIRef(event_URI), sdo_namespace.addressLocality, city_uri))
                         num_cities_found_in_geonames_mapping += 1
                     else:
-                        geonames_url = f'http://api.geonames.org/searchJSON?q={city_name}&maxRows=1&username={username}'
-                        response = requests.get(geonames_url).json()
-                        if 'totalResultsCount' in response and response['totalResultsCount'] > 0:
-                            geoname_id = response['geonames'][0]['geonameId']
-                            city_uri = URIRef(f'http://sws.geonames.org/{geoname_id}/')
-                            print('hi')
-                            geoname_uri_mappings[city_name] = str(city_uri)
-                            rdf_graph.add((URIRef(event_URI), sdo_namespace.addressLocality, city_uri))
-                            print ('the city URI ', city_uri)
-                        else:
-                            # print ('Failed to find the city: ', city_name)
-                            cities_not_found.add(city_name)
-                            comment_in_preparation += 'According to Eyes on Russia, this event happened in '+ city_name +'. '
-                            # city_uri = Literal(city_name)
+                        # geonames_url = f'http://api.geonames.org/searchJSON?q={city_name}&maxRows=1&username={username}'
+                        # response = requests.get(geonames_url).json()
+                        # if 'totalResultsCount' in response and response['totalResultsCount'] > 0:
+                        #     geoname_id = response['geonames'][0]['geonameId']
+                        #     city_uri = URIRef(f'http://sws.geonames.org/{geoname_id}/')
+                        #     print('hi')
+                        #     geoname_uri_mappings[city_name] = str(city_uri)
+                        #     rdf_graph.add((URIRef(event_URI), sdo_namespace.addressLocality, city_uri))
+                        #     print ('the city URI ', city_uri)
+                        # else:
+                        print ('Failed to find the city: ', city_name)
+                        cities_not_found.add(city_name)
+                        comment_in_preparation += 'According to Eyes on Russia, this event happened in '+ city_name +'. '
+                        # city_uri = Literal(city_name)
 
 
                 for category in feature['properties']['categories']:
-                    # Eyes on Russia provides some extra information as the category of the event. We decide to keep this as comment
-                    rdf_graph.add((URIRef(event_URI), RDFS.comment, Literal(comment_in_preparation + category)))
+                    # Eyes on Russia provides some extra information as the category of the event. We decide to keep this in the comment
+                    comment_in_preparation += 'According to Eyes on Russia, this event is of type '+ category +'. '
                     # print ('comment: ', comment_in_preparation + 'The type of event could be ' +category)
 
                 if feature['properties'].get('url'):
@@ -216,8 +220,11 @@ with open('datasets/ukrainian_geoname_uri_mappings.json', 'r') as ukrainian_citi
                         #     print (e)
 
                 rdf_graph.add((URIRef(event_URI), RDF.type, sem_namespace.Event))
+                if comment_in_preparation != '':
+                    rdf_graph.add((URIRef(event_URI), RDFS.comment, Literal(comment_in_preparation, lang="en")))
 
                 event_id += 1
+
 print ('#Entry ', num_entry)
 print ('#violence level ', num_vio)
 print ('#rdfs:label ', num_label)
