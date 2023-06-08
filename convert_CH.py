@@ -5,11 +5,15 @@ import json
 from datetime import datetime
 import requests
 from bs4 import BeautifulSoup
+import validators
 
 
 # Define namespaces
-l4r_ch_namespace = Namespace("https://linked4resilience.eu/data/CH/April2023/")
+l4r_ch_namespace_event = Namespace("https://linked4resilience.eu/data/CH/April2023/")
 l4r_o_namespace = Namespace("https://linked4resilience.eu/ontology/")
+l4r_ch_namespace_location = Namespace("https://linked4resilience.eu/data/EOR/April2023/location/")
+l4r_ch_namespace_geo = Namespace("https://linked4resilience.eu/data/EOR/April2023/geo/")
+
 sem_namespace = Namespace("http://semanticweb.cs.vu.nl/2009/11/sem/")
 
 gno_namespace = Namespace('http://www.geonames.org/ontology#')
@@ -22,7 +26,7 @@ sdo_namespace = Namespace("https://schema.org/")
 rdf_graph = Graph()
 # Bind namespaces
 # Appraoch 1
-rdf_graph.bind("l4r", l4r_ch_namespace)
+rdf_graph.bind("l4r", l4r_ch_namespace_event)
 rdf_graph.bind("l4ro", l4r_o_namespace)
 rdf_graph.bind("xsd", XSD)
 rdf_graph.bind('gno', gno_namespace)
@@ -65,10 +69,18 @@ GEONAMES_API_URL = 'http://api.geonames.org/searchJSON'
 GEONAMES_USERNAME = username
 
 
-with open('datasets/ukrainian_geoname_uri_mappings.json', 'r') as ukrainian_cities:
-    geoname_uri_mappings = json.load(ukrainian_cities)
+with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as original_ukrainian_cities:
+    original_geoname_uri_mappings = json.load(original_ukrainian_cities)
+    with open('datasets/extended-ukrainian-geoname-uri-mappings.json', 'r') as extended_ukrainian_cities:
+        extended_geoname_uri_mappings = json.load(extended_ukrainian_cities)
+
+        original_geoname_uri_mappings.update(extended_geoname_uri_mappings)
+        geoname_uri_mappings = original_geoname_uri_mappings
+
     # Initialize an event ID counter
     event_id = 1
+    location_id = 1
+    geo_id = 1
 
     with open("datasets/enriched_original_ukr-civharm-2023-04-30.json", encoding="utf-8") as f:
         data = json.load(f)
@@ -76,52 +88,98 @@ with open('datasets/ukrainian_geoname_uri_mappings.json', 'r') as ukrainian_citi
         # Loop through the features in the JSON file
         for d in data:
             num_entry +=1
-            event_URI = l4r_ch_namespace + str(event_id).zfill(8)
-            comment_in_preparation = ''
+            event_URI = l4r_ch_namespace_event + str(event_id).zfill(8)
+            
 
-            latitude = d['latitude']
-            longitude = d['longitude']
-            date = d['date']
-            city_list = d['location'].split(",")
-            city = city_list[0] # the informaiton comes in the format of "city, town, street"
-            description = d['description']
+            comment_in_preparation = ''
+            if 'latitude'in d and 'longitude' in d:
+                latitude = d['latitude']
+                longitude = d['longitude']
+                num_coordinates += 1
+
+                location_URI = l4r_ch_namespace_location + str(location_id).zfill(8)
+                location_id += 1
+                rdf_graph.add((URIRef(event_URI), sdo_namespace.location, URIRef(location_URI))) # updated from lat
+                geo_URI = l4r_ch_namespace_geo + str(geo_id).zfill(8)
+                geo_id += 1
+                rdf_graph.add((URIRef(location_URI), RDF.type, sdo_namespace.Place)) #
+                rdf_graph.add((URIRef(location_URI), sdo_namespace.geo, URIRef(geo_URI))) #
+
+                rdf_graph.add((URIRef(geo_URI), RDF.type, sdo_namespace.GeoCoordinates)) #
+
+                rdf_graph.add((URIRef(geo_URI), sdo_namespace.latitude, Literal(latitude, datatype=XSD.float))) # updated from lat
+                    # print ('\tlat', Literal(lat, datatype=XSD.float))
+
+                rdf_graph.add((URIRef(geo_URI), sdo_namespace.longitude, Literal(longitude, datatype=XSD.float))) # updated from lng
+                    # print ('\tlng', Literal(lng, datatype=XSD.float))
+
+            if 'date' in d:                 
+                date = d['date']
+                date_obj = datetime.strptime(date, "%m/%d/%Y")
+                formatted_date_str = datetime.strftime(date_obj, "%Y-%m-%d")
+                rdf_graph.add((URIRef(event_URI), URIRef('http://purl.org/dc/terms/date'), Literal(formatted_date_str, datatype=XSD.date)))
+                num_date += 1
+
+            
+            
+            if 'description' in d:
+                description = d['description']
+                rdf_graph.add((URIRef(event_URI), RDFS.label, Literal(description)))
+                num_label += 1
 
             if 'postalCode' in d:
                 postal_code = d['postalCode']
-
                 rdf_graph.add((URIRef(event_URI), sdo_namespace.postalCode, Literal(postal_code)))
+                num_postalCode +=1
+
             if d.get('sources') and d['sources'][0].get('path'):
                 url = d['sources'][0]['path']
+                rdf_graph.add((URIRef(event_URI), sdo_namespace.url, Literal(url, datatype=XSD.anyURI)))
+                num_url += 1
+                if validators.url(url): # if the URL is valid. Invalid URL could be https://google
+                        num_validated_url += 1
+
+
             if 'countryCode' in d:
 
                 country = "Ukraine"
                 country_uri = rdflib.URIRef("http://sws.geonames.org/690791/")
                 rdf_graph.add((URIRef(event_URI), sdo_namespace.addressCountry, country_uri))
+                num_country += 1
                 # Create a URI for the event using the event ID
-            event_URI = l4r_ch_namespace + str(event_id)
+            # event_URI = l4r_ch_namespace + str(event_id)
 
             # Add triples to the graph
 
             rdf_graph.add((URIRef(event_URI), RDF.type, sem_namespace.Event))
-            rdf_graph.add((URIRef(event_URI), sdo_namespace.latitude, Literal(latitude, datatype=XSD.float)))
-            rdf_graph.add((URIRef(event_URI), sdo_namespace.longitude, Literal(longitude, datatype=XSD.float)))
-            rdf_graph.add((URIRef(event_URI), RDFS.label, Literal(description)))
-            rdf_graph.add((URIRef(event_URI), sdo_namespace.url, Literal(url, datatype=XSD.anyURI)))
+            # rdf_graph.add((URIRef(event_URI), sdo_namespace.latitude, Literal(latitude, datatype=XSD.float)))
+            # rdf_graph.add((URIRef(event_URI), sdo_namespace.longitude, Literal(longitude, datatype=XSD.float)))
+
+
+            
+
             # rdf_graph.add((URIRef(event_URI), SCHEMA.addressCountry, Literal(country)))
             if 'region' in d:
                 region = d['region']
                 if region in geoname_uri_mappings:
                         city_uri = URIRef(geoname_uri_mappings[region])
                         rdf_graph.add((URIRef(event_URI), sdo_namespace.addressRegion, city_uri))
+                        num_prov += 1
                 else:
                     print ('The province not found!', region)
                     provinces_not_found.add(region)
+                
 
-            if 'city' in d:
+            if 'location' in d:
+                city_list = d['location'].split(",")
+                city = city_list[0] # the informaiton comes in the format of "city, town, street"
                 city_name = city
                 if city_name in geoname_uri_mappings:
                         city_uri = URIRef(geoname_uri_mappings[city_name])
-                        rdf_graph.add((URIRef(event_URI), sdo_namespace.addressLocality, city_uri))
+                        rdf_graph.add((URIRef(event_URI), sdo_namespace.location, city_uri))
+                        rdf_graph.add((city_uri, RDF.type, sdo_namespace.Place))
+                        num_city += 1
+
                 else:
                     # print ('Failed to find the city: ', city_name)
                     cities_not_found.add(city_name)
@@ -140,15 +198,12 @@ with open('datasets/ukrainian_geoname_uri_mappings.json', 'r') as ukrainian_citi
                     # else:
                     #     city_uri = Literal(city_name)
                     # rdf_graph.add((URIRef(event_URI), SCHEMA.city, Literal(city_uri)))
+                    
 
-            date_obj = datetime.strptime(date, "%m/%d/%Y")
-            formatted_date_str = datetime.strftime(date_obj, "%Y-%m-%d")
-            rdf_graph.add((URIRef(event_URI), sdo_namespace.date, Literal(formatted_date_str, datatype=XSD.date)))
 
 
             # Increment the event ID
-            # event_num = int(event_id[3:])
-            # event_id = f"event{event_num + 1}"
+
             event_id += 1
 
 
@@ -166,7 +221,6 @@ with open("converted_ukr-civharm-2023-04-30.ttl", "wb") as f:
 
 
 print ('#Entry ', num_entry)
-print ('#violence level ', num_vio)
 print ('#rdfs:label ', num_label)
 print ('#postalCode ', num_postalCode)
 print ('#country', num_country)
@@ -179,8 +233,7 @@ print ('#(set of) cities not found ', len(cities_not_found))
 # for c in cities_not_found:
 #     print (c)
 print ('#(set of) provinces not found ', len(provinces_not_found))
-for p in provinces_not_found:
-    print (p)
+
 print ('count URL: ', num_url)
 
 
