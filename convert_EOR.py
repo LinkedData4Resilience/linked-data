@@ -15,6 +15,9 @@ from rdflib.namespace import NamespaceManager
 fuser = open("userinfo.txt","r")
 username = fuser.readline().strip()
 
+with open("datasets/city_coordinates.json") as fresult:
+    existing_results = json.load(fresult)
+
 # Define the GeoNames API URL and username
 GEONAMES_API_URL = 'http://api.geonames.org/searchJSON'
 GEONAMES_USERNAME = username
@@ -91,14 +94,14 @@ geo_id = 1
 
 with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as original_ukrainian_cities:
     original_geoname_uri_mappings = json.load(original_ukrainian_cities)
-    with open('datasets/extended-ukrainian-geoname-uri-mappings.json', 'r') as extended_ukrainian_cities:
+    with open('datasets/extended-ukrainian-geoname-uri-mappings.json', 'r', encoding='utf-8') as extended_ukrainian_cities:
         extended_geoname_uri_mappings = json.load(extended_ukrainian_cities)
 
         original_geoname_uri_mappings.update(extended_geoname_uri_mappings)
         geoname_uri_mappings = original_geoname_uri_mappings
 
     # Open the JSON file
-    with open("datasets/EOR-2023-04-30.geojson") as fjson:
+    with open("datasets\enriched_original_EOR-2023-04-30.json") as fjson:
         data = json.load(fjson)
 
         # Initialize an event ID counter
@@ -168,19 +171,36 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
 
                 if feature.get("postalCode"):
                     rdf_graph.add((URIRef(event_URI), sdo_namespace.postalCode, Literal(feature['postalCode'])))
-                    print ('\thas postalcode: ', Literal(feature['postalCode']))
+                    #print ('\thas postalcode: ', Literal(feature['postalCode']))
                     num_postalCode +=1
+
+                if 'postalCode' not in feature:
+                    geonames_url = f'http://api.geonames.org/findNearbyPostalCodesJSON?lat=47&lng=9&username={username}'
+                    response = requests.get(geonames_url).json()
+                    
+                    if 'postalCode' in response['postalCodes'][0]:
+                        postalCode = response['postalCodes'][0]['postalCode']
+                        rdf_graph.add((URIRef(event_URI), sdo_namespace.postalCode, Literal(postalCode)))
+                        num_postalCode +=1
+                    # if 'totalResultsCount' in response and response['totalResultsCount'] > 0:
+                    #     geoname_id = response['geonames'][0]['geonameId']
+                    #     city_uri = URIRef(f'http://sws.geonames.org/{geoname_id}/')
+                    #     print('hi')
+                    #     geoname_uri_mappings[city_name] = str(city_uri)
+                    #     rdf_graph.add((URIRef(event_URI), sdo_namespace.addressLocality, city_uri))
+                    #     print ('the city URI ', city_uri)
+
 
                 if feature["properties"].get("country"):
                     country_name = feature['properties']['country']
                     # print ('\tcountry: ', country_name)
                     if country_name in geoname_uri_mappings:
                         country_uri = URIRef(geoname_uri_mappings[country_name])
-                        rdf_graph.add((URIRef(event_URI), sdo_namespace.addressCountry, country_uri))
+                        rdf_graph.add((URIRef(event_URI), l4r_o_namespace.addressCountry, country_uri))
                         # print ('\tCountry URI: ', country_uri)
                         num_country += 1
                     else:
-                        rdf_graph.add((URIRef(event_URI), sdo_namespace.addressCountry, Literal(feature["properties"]["country"])))
+                        rdf_graph.add((URIRef(event_URI), l4r_o_namespace.addressCountry, Literal(feature["properties"]["country"])))
                         print ('ERROR: the URI is not in the saved Geonames mapping: ', country_name)
                         print ('this event has URI: ', event_URI)
 
@@ -188,11 +208,11 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
                     prov_name = feature['properties']['province']
                     if prov_name in geoname_uri_mappings:
                         prov_uri = URIRef(geoname_uri_mappings[prov_name])
-                        rdf_graph.add((URIRef(event_URI), sdo_namespace.addressRegion, prov_uri))
+                        rdf_graph.add((URIRef(event_URI), l4r_o_namespace.addressRegion, prov_uri))
                         # print ('\tProvince URI: ', prov_uri)
                         num_prov += 1
                     else:
-                        rdf_graph.add((URIRef(event_URI), sdo_namespace.addressRegion, Literal(feature["properties"]["province"])))
+                        rdf_graph.add((URIRef(event_URI), l4r_o_namespace.addressRegion, Literal(feature["properties"]["province"])))
                         print ('ERROR: the URI is not in the saved Geonames mapping: ', prov_name)
                         print ('this event has URI: ', event_URI)
 
@@ -201,10 +221,18 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
                     city_name = feature['properties']['city']
                     if city_name in geoname_uri_mappings:
                         city_uri = URIRef(geoname_uri_mappings[city_name])
-                        rdf_graph.add((URIRef(event_URI), sdo_namespace.location, city_uri))
-                        rdf_graph.add((city_uri, RDF.type, sdo_namespace.Place))
+                        rdf_graph.add((URIRef(event_URI), l4r_o_namespace.addressCity, city_uri))
+                        
                         num_city += 1
                     else:
+                        for c in existing_results:
+
+                            if feature["geometry"]["coordinates"] == c['coordinates']:
+                                city_uri = URIRef(c['URI'])
+                                rdf_graph.add((URIRef(event_URI), l4r_o_namespace.addressCity, city_uri))
+                                
+                                num_city += 1
+                                break
                         # geonames_url = f'http://api.geonames.org/searchJSON?q={city_name}&maxRows=1&username={username}'
                         # response = requests.get(geonames_url).json()
                         # if 'totalResultsCount' in response and response['totalResultsCount'] > 0:
@@ -216,11 +244,21 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
                         #     print ('the city URI ', city_uri)
                         # else:
                         # print ('Failed to find the city: ', city_name)
-                        cities_not_found.add(city_name)
-                        comment_in_preparation += 'According to Eyes on Russia, this event happened in '+ city_name +'. '
+                            # else:  
+                            #     cities_not_found.add(city_name)
+                            #     comment_in_preparation += 'According to Eyes on Russia, this event happened in '+ city_name +'. '
                         # city_uri = Literal(city_name)
 
+                if 'city' not in feature["properties"]: 
+                    for c in existing_results:
 
+                            if feature["geometry"]["coordinates"] == c['coordinates']:
+                                city_uri = URIRef(c['URI'])
+                                rdf_graph.add((URIRef(event_URI), l4r_o_namespace.addressCity, city_uri))
+                                
+                                num_city += 1
+                                break
+                                
                 for category in feature['properties']['categories']:
                     # Eyes on Russia provides some extra information as the category of the event. We decide to keep this in the comment
                     comment_in_preparation += 'According to Eyes on Russia, this event is of type '+ category +'. '
@@ -261,8 +299,8 @@ print ('#province ', num_prov)
 print ('num_cities_original_EoR ', num_cities_original_EoR)
 print ('#city (found in Geonames)', num_city)
 print ('#(unique) cities not found ', len(cities_not_found))
-# for c in cities_not_found:
-#     print (c)
+# for r in cities_not_found:
+#      print (r)
 print ('count URL: ', num_url)
 
 sorted_triples = sorted(rdf_graph, key=lambda triple: triple[0])

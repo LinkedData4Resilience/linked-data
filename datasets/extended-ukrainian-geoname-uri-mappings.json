@@ -4,7 +4,6 @@
     "Zaporizhzhya": "http://sws.geonames.org/687700/",
     "Cherson Oblast": "http://sws.geonames.org/703883/",
     "Cherkasy": "http://sws.geonames.org/710791/",
-    "Cherson Oblast": "http://sws.geonames.org/703883/",
     "Luhank Oblast": "http://sws.geonames.org/702658/",
     "Mykolaiv oblast": "http://sws.geonames.org/700567/",
     "Jytomyr Oblast": "http://sws.geonames.org/686967/",
@@ -14,5 +13,18 @@
     "Charkov Oblast": "http://sws.geonames.org/706483/",
     "Donetsk Oblast": "http://sws.geonames.org/709717/",
     "Donetsk Oblast,": "http://sws.geonames.org/709717/",
-    "Donetsk  Oblast": "http://sws.geonames.org/70971"
+    "Donetsk  Oblast": "http://sws.geonames.org/70971",
+    "Cherkaska": "http://sws.geonames.org/710802",
+    "Poltavska": "http://sws.geonames.org/696643",
+    "Dnipropetrovska": "http://sws.geonames.org/709929",
+    "Брянская Область": "http://sws.geonames.org/571473",
+    "Белгородская Область": "http://sws.geonames.org/578071",
+    "Chernivetska": "http://sws.geonames.org/710720",
+    "Ростовская Область": "http://sws.geonames.org/501165",
+    "Khmelnytska": "http://sws.geonames.org/9532774",
+    "Lublin": "http://sws.geonames.org/765876",
+    "Краснодарский Край": "http://sws.geonames.org/542420",
+    "Tiraspol Tr.": "http://sws.geonames.org/617239"
+    
+    
 }
