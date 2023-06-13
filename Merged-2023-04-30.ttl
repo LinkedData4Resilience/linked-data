@@ -1,0 +1,1543 @@
+@prefix ns1: <https://linked4resilience.eu/ontology/> .
+@prefix ns2: <http:www.w3.org/ns/prov#> .
+
+<http://linked4resilience/data/integrated/april2023/event1> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000453>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002242> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002242> .
+
+<http://linked4resilience/data/integrated/april2023/event10> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000021>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000143> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000143> .
+
+<http://linked4resilience/data/integrated/april2023/event100> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000287>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001199> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001199> .
+
+<http://linked4resilience/data/integrated/april2023/event101> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000289>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001201> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001201> .
+
+<http://linked4resilience/data/integrated/april2023/event102> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000285>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001897> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001897> .
+
+<http://linked4resilience/data/integrated/april2023/event103> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000290>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003241> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003241> .
+
+<http://linked4resilience/data/integrated/april2023/event104> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000290>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003242> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003242> .
+
+<http://linked4resilience/data/integrated/april2023/event105> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000294>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001202> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001202> .
+
+<http://linked4resilience/data/integrated/april2023/event106> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000295>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003243> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003243> .
+
+<http://linked4resilience/data/integrated/april2023/event107> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000303>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001249> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001249> .
+
+<http://linked4resilience/data/integrated/april2023/event108> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000301>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001454> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001454> .
+
+<http://linked4resilience/data/integrated/april2023/event109> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000302>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003272> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003272> .
+
+<http://linked4resilience/data/integrated/april2023/event11> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000021>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000144> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000144> .
+
+<http://linked4resilience/data/integrated/april2023/event110> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000305>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001296> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001296> .
+
+<http://linked4resilience/data/integrated/april2023/event111> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000310>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001298> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001298> .
+
+<http://linked4resilience/data/integrated/april2023/event112> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000311>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001301> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001301> .
+
+<http://linked4resilience/data/integrated/april2023/event113> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000311>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001302> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001302> .
+
+<http://linked4resilience/data/integrated/april2023/event114> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000311>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001303> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001303> .
+
+<http://linked4resilience/data/integrated/april2023/event115> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000311>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001304> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001304> .
+
+<http://linked4resilience/data/integrated/april2023/event116> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000311>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001305> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001305> .
+
+<http://linked4resilience/data/integrated/april2023/event117> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000318>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001344> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001344> .
+
+<http://linked4resilience/data/integrated/april2023/event118> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000317>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001356> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001356> .
+
+<http://linked4resilience/data/integrated/april2023/event119> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000324>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001455> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001455> .
+
+<http://linked4resilience/data/integrated/april2023/event12> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000032>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000277> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000277> .
+
+<http://linked4resilience/data/integrated/april2023/event120> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000325>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003273> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003273> .
+
+<http://linked4resilience/data/integrated/april2023/event121> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000348>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001407> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001407> .
+
+<http://linked4resilience/data/integrated/april2023/event122> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000349>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001449> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001449> .
+
+<http://linked4resilience/data/integrated/april2023/event123> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000349>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001450> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001450> .
+
+<http://linked4resilience/data/integrated/april2023/event124> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000349>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001451> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001451> .
+
+<http://linked4resilience/data/integrated/april2023/event125> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000349>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002951> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002951> .
+
+<http://linked4resilience/data/integrated/april2023/event126> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000358>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001472> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001472> .
+
+<http://linked4resilience/data/integrated/april2023/event127> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000355>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001509> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001509> .
+
+<http://linked4resilience/data/integrated/april2023/event128> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000354>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001543> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001543> .
+
+<http://linked4resilience/data/integrated/april2023/event129> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000361>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002260> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002260> .
+
+<http://linked4resilience/data/integrated/april2023/event13> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000032>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000278> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000278> .
+
+<http://linked4resilience/data/integrated/april2023/event130> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000362>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003274> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003274> .
+
+<http://linked4resilience/data/integrated/april2023/event131> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000363>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003275> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003275> .
+
+<http://linked4resilience/data/integrated/april2023/event132> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000369>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001618> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001618> .
+
+<http://linked4resilience/data/integrated/april2023/event133> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000371>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003276> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003276> .
+
+<http://linked4resilience/data/integrated/april2023/event134> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000372>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003277> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003277> .
+
+<http://linked4resilience/data/integrated/april2023/event135> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000372>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003278> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003278> .
+
+<http://linked4resilience/data/integrated/april2023/event136> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000374>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003279> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003279> .
+
+<http://linked4resilience/data/integrated/april2023/event137> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000377>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001593> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001593> .
+
+<http://linked4resilience/data/integrated/april2023/event138> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000375>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001614> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001614> .
+
+<http://linked4resilience/data/integrated/april2023/event139> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000375>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001615> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001615> .
+
+<http://linked4resilience/data/integrated/april2023/event14> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000032>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000279> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000279> .
+
+<http://linked4resilience/data/integrated/april2023/event140> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000375>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001616> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001616> .
+
+<http://linked4resilience/data/integrated/april2023/event141> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000375>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001617> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001617> .
+
+<http://linked4resilience/data/integrated/april2023/event142> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000380>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001676> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001676> .
+
+<http://linked4resilience/data/integrated/april2023/event143> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000384>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001630> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001630> .
+
+<http://linked4resilience/data/integrated/april2023/event144> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000391>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003280> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003280> .
+
+<http://linked4resilience/data/integrated/april2023/event145> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000393>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001802> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001802> .
+
+<http://linked4resilience/data/integrated/april2023/event146> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000399>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001901> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001901> .
+
+<http://linked4resilience/data/integrated/april2023/event147> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000401>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001803> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001803> .
+
+<http://linked4resilience/data/integrated/april2023/event148> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000401>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001804> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001804> .
+
+<http://linked4resilience/data/integrated/april2023/event149> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000401>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001805> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001805> .
+
+<http://linked4resilience/data/integrated/april2023/event15> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000040>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000154> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000154> .
+
+<http://linked4resilience/data/integrated/april2023/event150> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000401>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001806> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001806> .
+
+<http://linked4resilience/data/integrated/april2023/event151> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000401>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001868> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001868> .
+
+<http://linked4resilience/data/integrated/april2023/event152> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000401>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001869> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001869> .
+
+<http://linked4resilience/data/integrated/april2023/event153> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000401>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001870> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001870> .
+
+<http://linked4resilience/data/integrated/april2023/event154> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000401>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001871> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001871> .
+
+<http://linked4resilience/data/integrated/april2023/event155> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000407>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001872> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001872> .
+
+<http://linked4resilience/data/integrated/april2023/event156> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000408>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001874> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001874> .
+
+<http://linked4resilience/data/integrated/april2023/event157> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000418>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002067> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002067> .
+
+<http://linked4resilience/data/integrated/april2023/event158> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000436>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001905> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001905> .
+
+<http://linked4resilience/data/integrated/april2023/event159> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000439>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001979> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001979> .
+
+<http://linked4resilience/data/integrated/april2023/event16> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000040>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000195> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000195> .
+
+<http://linked4resilience/data/integrated/april2023/event160> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000436>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002000> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002000> .
+
+<http://linked4resilience/data/integrated/april2023/event161> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000441>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002002> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002002> .
+
+<http://linked4resilience/data/integrated/april2023/event162> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000423>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001945> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001945> .
+
+<http://linked4resilience/data/integrated/april2023/event163> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000425>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001946> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001946> .
+
+<http://linked4resilience/data/integrated/april2023/event164> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000425>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001947> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001947> .
+
+<http://linked4resilience/data/integrated/april2023/event165> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000426>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001948> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001948> .
+
+<http://linked4resilience/data/integrated/april2023/event166> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000432>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002011> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002011> .
+
+<http://linked4resilience/data/integrated/april2023/event167> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000423>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002577> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002577> .
+
+<http://linked4resilience/data/integrated/april2023/event168> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000435>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002961> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002961> .
+
+<http://linked4resilience/data/integrated/april2023/event169> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000444>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002102> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002102> .
+
+<http://linked4resilience/data/integrated/april2023/event17> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000040>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000196> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000196> .
+
+<http://linked4resilience/data/integrated/april2023/event170> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000444>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002137> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002137> .
+
+<http://linked4resilience/data/integrated/april2023/event171> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000444>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002138> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002138> .
+
+<http://linked4resilience/data/integrated/april2023/event172> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000444>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002139> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002139> .
+
+<http://linked4resilience/data/integrated/april2023/event173> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000444>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002209> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002209> .
+
+<http://linked4resilience/data/integrated/april2023/event174> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000446>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002211> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002211> .
+
+<http://linked4resilience/data/integrated/april2023/event175> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000447>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002307> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002307> .
+
+<http://linked4resilience/data/integrated/april2023/event176> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000455>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002253> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002253> .
+
+<http://linked4resilience/data/integrated/april2023/event177> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000462>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002342> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002342> .
+
+<http://linked4resilience/data/integrated/april2023/event178> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000476>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002599> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002599> .
+
+<http://linked4resilience/data/integrated/april2023/event179> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000478>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002841> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002841> .
+
+<http://linked4resilience/data/integrated/april2023/event18> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000040>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000197> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000197> .
+
+<http://linked4resilience/data/integrated/april2023/event180> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000473>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002543> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002543> .
+
+<http://linked4resilience/data/integrated/april2023/event181> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000473>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002544> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002544> .
+
+<http://linked4resilience/data/integrated/april2023/event182> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000481>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002928> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002928> .
+
+<http://linked4resilience/data/integrated/april2023/event183> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000482>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002522> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002522> .
+
+<http://linked4resilience/data/integrated/april2023/event184> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000484>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002523> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002523> .
+
+<http://linked4resilience/data/integrated/april2023/event185> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000486>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002524> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002524> .
+
+<http://linked4resilience/data/integrated/april2023/event186> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000484>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002630> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002630> .
+
+<http://linked4resilience/data/integrated/april2023/event187> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000489>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002557> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002557> .
+
+<http://linked4resilience/data/integrated/april2023/event188> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000492>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002805> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002805> .
+
+<http://linked4resilience/data/integrated/april2023/event189> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000492>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002806> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002806> .
+
+<http://linked4resilience/data/integrated/april2023/event19> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000040>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000198> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000198> .
+
+<http://linked4resilience/data/integrated/april2023/event190> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000526>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003108> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003108> .
+
+<http://linked4resilience/data/integrated/april2023/event191> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000498>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003610> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003610> .
+
+<http://linked4resilience/data/integrated/april2023/event192> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000499>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003747> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003747> .
+
+<http://linked4resilience/data/integrated/april2023/event193> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000504>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003631> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003631> .
+
+<http://linked4resilience/data/integrated/april2023/event194> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000508>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002823> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002823> .
+
+<http://linked4resilience/data/integrated/april2023/event195> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000510>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003750> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003750> .
+
+<http://linked4resilience/data/integrated/april2023/event196> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000510>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003751> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003751> .
+
+<http://linked4resilience/data/integrated/april2023/event197> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000510>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003752> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003752> .
+
+<http://linked4resilience/data/integrated/april2023/event198> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000514>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002868> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002868> .
+
+<http://linked4resilience/data/integrated/april2023/event199> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000517>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003753> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003753> .
+
+<http://linked4resilience/data/integrated/april2023/event2> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000452>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002259> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002259> .
+
+<http://linked4resilience/data/integrated/april2023/event20> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000040>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000199> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000199> .
+
+<http://linked4resilience/data/integrated/april2023/event200> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000520>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002867> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002867> .
+
+<http://linked4resilience/data/integrated/april2023/event201> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000530>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003065> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003065> .
+
+<http://linked4resilience/data/integrated/april2023/event202> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000525>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00002963> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00002963> .
+
+<http://linked4resilience/data/integrated/april2023/event203> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000533>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003115> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003115> .
+
+<http://linked4resilience/data/integrated/april2023/event204> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000536>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003214> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003214> .
+
+<http://linked4resilience/data/integrated/april2023/event205> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000539>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003269> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003269> .
+
+<http://linked4resilience/data/integrated/april2023/event206> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000539>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003270> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003270> .
+
+<http://linked4resilience/data/integrated/april2023/event207> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000541>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003271> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003271> .
+
+<http://linked4resilience/data/integrated/april2023/event208> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000559>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003576> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003576> .
+
+<http://linked4resilience/data/integrated/april2023/event209> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000565>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003474> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003474> .
+
+<http://linked4resilience/data/integrated/april2023/event21> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000040>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000200> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000200> .
+
+<http://linked4resilience/data/integrated/april2023/event210> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000571>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003814> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003814> .
+
+<http://linked4resilience/data/integrated/april2023/event211> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000579>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003611> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003611> .
+
+<http://linked4resilience/data/integrated/april2023/event212> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000592>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003863> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003863> .
+
+<http://linked4resilience/data/integrated/april2023/event213> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000592>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003866> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003866> .
+
+<http://linked4resilience/data/integrated/april2023/event214> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000594>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004192> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004192> .
+
+<http://linked4resilience/data/integrated/april2023/event215> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000594>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004193> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004193> .
+
+<http://linked4resilience/data/integrated/april2023/event216> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000594>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004194> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004194> .
+
+<http://linked4resilience/data/integrated/april2023/event217> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000594>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004195> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004195> .
+
+<http://linked4resilience/data/integrated/april2023/event218> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000597>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004197> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004197> .
+
+<http://linked4resilience/data/integrated/april2023/event219> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000602>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004098> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004098> .
+
+<http://linked4resilience/data/integrated/april2023/event22> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000040>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000201> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000201> .
+
+<http://linked4resilience/data/integrated/april2023/event220> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000601>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004198> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004198> .
+
+<http://linked4resilience/data/integrated/april2023/event221> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000602>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004227> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004227> .
+
+<http://linked4resilience/data/integrated/april2023/event222> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000602>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004228> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004228> .
+
+<http://linked4resilience/data/integrated/april2023/event223> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000605>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003997> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003997> .
+
+<http://linked4resilience/data/integrated/april2023/event224> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000606>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004229> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004229> .
+
+<http://linked4resilience/data/integrated/april2023/event225> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000606>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004230> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004230> .
+
+<http://linked4resilience/data/integrated/april2023/event226> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000614>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003937> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003937> .
+
+<http://linked4resilience/data/integrated/april2023/event227> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000614>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003938> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003938> .
+
+<http://linked4resilience/data/integrated/april2023/event228> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000615>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003970> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003970> .
+
+<http://linked4resilience/data/integrated/april2023/event229> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000616>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003985> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003985> .
+
+<http://linked4resilience/data/integrated/april2023/event23> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000040>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000202> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000202> .
+
+<http://linked4resilience/data/integrated/april2023/event230> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000617>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004005> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004005> .
+
+<http://linked4resilience/data/integrated/april2023/event231> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000618>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004021> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004021> .
+
+<http://linked4resilience/data/integrated/april2023/event232> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000637>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004280> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004280> .
+
+<http://linked4resilience/data/integrated/april2023/event233> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000639>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004446> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004446> .
+
+<http://linked4resilience/data/integrated/april2023/event234> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000642>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004357> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004357> .
+
+<http://linked4resilience/data/integrated/april2023/event235> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000661>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004454> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004454> .
+
+<http://linked4resilience/data/integrated/april2023/event236> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000679>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004605> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004605> .
+
+<http://linked4resilience/data/integrated/april2023/event237> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000679>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004648> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004648> .
+
+<http://linked4resilience/data/integrated/april2023/event238> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000679>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004649> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004649> .
+
+<http://linked4resilience/data/integrated/april2023/event239> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000693>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004673> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004673> .
+
+<http://linked4resilience/data/integrated/april2023/event24> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000048>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000298> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000298> .
+
+<http://linked4resilience/data/integrated/april2023/event240> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000693>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004674> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004674> .
+
+<http://linked4resilience/data/integrated/april2023/event241> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000693>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004675> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004675> .
+
+<http://linked4resilience/data/integrated/april2023/event242> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000693>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004713> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004713> .
+
+<http://linked4resilience/data/integrated/april2023/event243> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000694>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004714> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004714> .
+
+<http://linked4resilience/data/integrated/april2023/event244> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000700>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004794> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004794> .
+
+<http://linked4resilience/data/integrated/april2023/event245> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000702>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004764> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004764> .
+
+<http://linked4resilience/data/integrated/april2023/event246> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000709>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004806> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004806> .
+
+<http://linked4resilience/data/integrated/april2023/event247> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000709>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004807> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004807> .
+
+<http://linked4resilience/data/integrated/april2023/event248> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000715>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004829> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004829> .
+
+<http://linked4resilience/data/integrated/april2023/event249> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000720>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004897> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004897> .
+
+<http://linked4resilience/data/integrated/april2023/event25> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000050>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000302> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000302> .
+
+<http://linked4resilience/data/integrated/april2023/event250> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000732>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00004936> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00004936> .
+
+<http://linked4resilience/data/integrated/april2023/event251> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000744>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005149> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005149> .
+
+<http://linked4resilience/data/integrated/april2023/event252> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000750>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005029> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005029> .
+
+<http://linked4resilience/data/integrated/april2023/event253> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000750>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005030> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005030> .
+
+<http://linked4resilience/data/integrated/april2023/event254> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000750>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005031> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005031> .
+
+<http://linked4resilience/data/integrated/april2023/event255> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000750>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005032> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005032> .
+
+<http://linked4resilience/data/integrated/april2023/event256> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000750>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005033> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005033> .
+
+<http://linked4resilience/data/integrated/april2023/event257> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000760>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005028> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005028> .
+
+<http://linked4resilience/data/integrated/april2023/event258> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000760>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005057> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005057> .
+
+<http://linked4resilience/data/integrated/april2023/event259> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000760>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005062> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005062> .
+
+<http://linked4resilience/data/integrated/april2023/event26> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000057>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000209> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000209> .
+
+<http://linked4resilience/data/integrated/april2023/event260> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000760>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005160> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005160> .
+
+<http://linked4resilience/data/integrated/april2023/event261> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000761>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005150> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005150> .
+
+<http://linked4resilience/data/integrated/april2023/event262> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000776>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005273> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005273> .
+
+<http://linked4resilience/data/integrated/april2023/event263> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000784>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005256> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005256> .
+
+<http://linked4resilience/data/integrated/april2023/event264> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000784>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005257> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005257> .
+
+<http://linked4resilience/data/integrated/april2023/event265> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000784>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005275> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005275> .
+
+<http://linked4resilience/data/integrated/april2023/event266> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000784>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005293> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005293> .
+
+<http://linked4resilience/data/integrated/april2023/event267> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000788>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005287> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005287> .
+
+<http://linked4resilience/data/integrated/april2023/event268> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000788>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005288> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005288> .
+
+<http://linked4resilience/data/integrated/april2023/event269> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000812>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005453> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005453> .
+
+<http://linked4resilience/data/integrated/april2023/event27> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000059>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000220> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000220> .
+
+<http://linked4resilience/data/integrated/april2023/event270> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000812>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005454> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005454> .
+
+<http://linked4resilience/data/integrated/april2023/event271> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000812>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005455> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005455> .
+
+<http://linked4resilience/data/integrated/april2023/event272> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000812>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005456> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005456> .
+
+<http://linked4resilience/data/integrated/april2023/event273> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000815>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005471> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005471> .
+
+<http://linked4resilience/data/integrated/april2023/event274> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000815>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005472> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005472> .
+
+<http://linked4resilience/data/integrated/april2023/event275> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000815>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005473> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005473> .
+
+<http://linked4resilience/data/integrated/april2023/event276> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000815>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005494> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005494> .
+
+<http://linked4resilience/data/integrated/april2023/event277> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000815>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005495> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005495> .
+
+<http://linked4resilience/data/integrated/april2023/event278> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000819>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005517> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005517> .
+
+<http://linked4resilience/data/integrated/april2023/event279> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000819>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005518> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005518> .
+
+<http://linked4resilience/data/integrated/april2023/event28> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000060>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000221> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000221> .
+
+<http://linked4resilience/data/integrated/april2023/event280> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000819>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005519> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005519> .
+
+<http://linked4resilience/data/integrated/april2023/event281> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000819>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005668> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005668> .
+
+<http://linked4resilience/data/integrated/april2023/event282> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000867>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005770> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005770> .
+
+<http://linked4resilience/data/integrated/april2023/event283> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000868>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005773> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005773> .
+
+<http://linked4resilience/data/integrated/april2023/event284> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000872>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00008614> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00008614> .
+
+<http://linked4resilience/data/integrated/april2023/event285> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000876>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00006395> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00006395> .
+
+<http://linked4resilience/data/integrated/april2023/event286> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000876>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00006396> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00006396> .
+
+<http://linked4resilience/data/integrated/april2023/event287> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000880>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005832> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005832> .
+
+<http://linked4resilience/data/integrated/april2023/event288> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000882>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005853> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005853> .
+
+<http://linked4resilience/data/integrated/april2023/event289> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000887>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00005861> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00005861> .
+
+<http://linked4resilience/data/integrated/april2023/event29> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000060>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000222> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000222> .
+
+<http://linked4resilience/data/integrated/april2023/event290> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000891>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00006090> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00006090> .
+
+<http://linked4resilience/data/integrated/april2023/event291> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000896>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00006390> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00006390> .
+
+<http://linked4resilience/data/integrated/april2023/event292> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000896>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00006391> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00006391> .
+
+<http://linked4resilience/data/integrated/april2023/event293> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000896>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00006392> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00006392> .
+
+<http://linked4resilience/data/integrated/april2023/event294> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000896>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00006393> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00006393> .
+
+<http://linked4resilience/data/integrated/april2023/event295> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000896>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00006394> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00006394> .
+
+<http://linked4resilience/data/integrated/april2023/event296> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000900>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00008628> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00008628> .
+
+<http://linked4resilience/data/integrated/april2023/event297> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000924>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00006146> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00006146> .
+
+<http://linked4resilience/data/integrated/april2023/event298> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000934>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00006331> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00006331> .
+
+<http://linked4resilience/data/integrated/april2023/event299> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000954>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00006616> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00006616> .
+
+<http://linked4resilience/data/integrated/april2023/event3> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000336>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001379> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001379> .
+
+<http://linked4resilience/data/integrated/april2023/event30> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000060>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000223> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000223> .
+
+<http://linked4resilience/data/integrated/april2023/event300> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000970>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00006714> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00006714> .
+
+<http://linked4resilience/data/integrated/april2023/event301> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000982>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00007119> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00007119> .
+
+<http://linked4resilience/data/integrated/april2023/event302> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000996>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00006981> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00006981> .
+
+<http://linked4resilience/data/integrated/april2023/event303> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00001076>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00008184> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00008184> .
+
+<http://linked4resilience/data/integrated/april2023/event304> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00001076>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00008185> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00008185> .
+
+<http://linked4resilience/data/integrated/april2023/event305> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00001112>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00009111> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00009111> .
+
+<http://linked4resilience/data/integrated/april2023/event306> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00001112>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00009112> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00009112> .
+
+<http://linked4resilience/data/integrated/april2023/event307> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00001113>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00009113> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00009113> .
+
+<http://linked4resilience/data/integrated/april2023/event308> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00001115>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00009281> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00009281> .
+
+<http://linked4resilience/data/integrated/april2023/event31> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000061>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000241> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000241> .
+
+<http://linked4resilience/data/integrated/april2023/event32> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000065>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000304> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000304> .
+
+<http://linked4resilience/data/integrated/april2023/event33> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000066>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000307> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000307> .
+
+<http://linked4resilience/data/integrated/april2023/event34> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000072>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000225> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000225> .
+
+<http://linked4resilience/data/integrated/april2023/event35> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000073>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000230> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000230> .
+
+<http://linked4resilience/data/integrated/april2023/event36> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000074>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000239> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000239> .
+
+<http://linked4resilience/data/integrated/april2023/event37> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000079>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000253> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000253> .
+
+<http://linked4resilience/data/integrated/april2023/event38> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000079>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000254> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000254> .
+
+<http://linked4resilience/data/integrated/april2023/event39> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000083>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000276> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000276> .
+
+<http://linked4resilience/data/integrated/april2023/event4> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000003>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000116> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000116> .
+
+<http://linked4resilience/data/integrated/april2023/event40> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000085>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000297> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000297> .
+
+<http://linked4resilience/data/integrated/april2023/event41> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000090>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000306> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000306> .
+
+<http://linked4resilience/data/integrated/april2023/event42> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000099>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000299> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000299> .
+
+<http://linked4resilience/data/integrated/april2023/event43> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000110>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000318> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000318> .
+
+<http://linked4resilience/data/integrated/april2023/event44> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000110>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000338> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000338> .
+
+<http://linked4resilience/data/integrated/april2023/event45> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000110>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000497> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000497> .
+
+<http://linked4resilience/data/integrated/april2023/event46> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000119>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000423> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000423> .
+
+<http://linked4resilience/data/integrated/april2023/event47> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000117>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000424> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000424> .
+
+<http://linked4resilience/data/integrated/april2023/event48> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000120>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000425> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000425> .
+
+<http://linked4resilience/data/integrated/april2023/event49> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000127>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000430> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000430> .
+
+<http://linked4resilience/data/integrated/april2023/event5> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000003>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000117> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000117> .
+
+<http://linked4resilience/data/integrated/april2023/event50> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000138>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000637> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000637> .
+
+<http://linked4resilience/data/integrated/april2023/event51> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000145>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000664> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000664> .
+
+<http://linked4resilience/data/integrated/april2023/event52> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000138>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000720> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000720> .
+
+<http://linked4resilience/data/integrated/april2023/event53> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000144>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001392> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001392> .
+
+<http://linked4resilience/data/integrated/april2023/event54> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000140>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001976> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001976> .
+
+<http://linked4resilience/data/integrated/april2023/event55> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000157>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000666> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000666> .
+
+<http://linked4resilience/data/integrated/april2023/event56> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000160>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000668> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000668> .
+
+<http://linked4resilience/data/integrated/april2023/event57> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000165>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000669> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000669> .
+
+<http://linked4resilience/data/integrated/april2023/event58> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000162>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000742> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000742> .
+
+<http://linked4resilience/data/integrated/april2023/event59> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000162>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000743> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000743> .
+
+<http://linked4resilience/data/integrated/april2023/event6> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000003>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000118> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000118> .
+
+<http://linked4resilience/data/integrated/april2023/event60> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000164>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00006097> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00006097> .
+
+<http://linked4resilience/data/integrated/april2023/event61> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000171>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001164> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001164> .
+
+<http://linked4resilience/data/integrated/april2023/event62> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000178>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000640> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000640> .
+
+<http://linked4resilience/data/integrated/april2023/event63> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000183>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000652> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000652> .
+
+<http://linked4resilience/data/integrated/april2023/event64> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000186>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000657> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000657> .
+
+<http://linked4resilience/data/integrated/april2023/event65> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000208>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000566> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000566> .
+
+<http://linked4resilience/data/integrated/april2023/event66> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000197>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000660> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000660> .
+
+<http://linked4resilience/data/integrated/april2023/event67> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000199>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000661> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000661> .
+
+<http://linked4resilience/data/integrated/april2023/event68> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000200>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000662> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000662> .
+
+<http://linked4resilience/data/integrated/april2023/event69> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000217>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000688> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000688> .
+
+<http://linked4resilience/data/integrated/april2023/event7> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000003>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000119> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000119> .
+
+<http://linked4resilience/data/integrated/april2023/event70> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000221>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001034> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001034> .
+
+<http://linked4resilience/data/integrated/april2023/event71> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000226>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000797> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000797> .
+
+<http://linked4resilience/data/integrated/april2023/event72> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000224>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000877> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000877> .
+
+<http://linked4resilience/data/integrated/april2023/event73> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000224>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001562> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001562> .
+
+<http://linked4resilience/data/integrated/april2023/event74> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000237>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000772> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000772> .
+
+<http://linked4resilience/data/integrated/april2023/event75> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000243>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001002> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001002> .
+
+<http://linked4resilience/data/integrated/april2023/event76> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000243>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001003> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001003> .
+
+<http://linked4resilience/data/integrated/april2023/event77> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000243>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001004> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001004> .
+
+<http://linked4resilience/data/integrated/april2023/event78> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000243>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001005> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001005> .
+
+<http://linked4resilience/data/integrated/april2023/event79> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000243>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001006> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001006> .
+
+<http://linked4resilience/data/integrated/april2023/event8> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000027>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000130> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000130> .
+
+<http://linked4resilience/data/integrated/april2023/event80> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000243>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001007> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001007> .
+
+<http://linked4resilience/data/integrated/april2023/event81> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000243>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001008> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001008> .
+
+<http://linked4resilience/data/integrated/april2023/event82> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000243>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001009> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001009> .
+
+<http://linked4resilience/data/integrated/april2023/event83> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000243>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001010> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001010> .
+
+<http://linked4resilience/data/integrated/april2023/event84> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000243>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001011> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001011> .
+
+<http://linked4resilience/data/integrated/april2023/event85> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000243>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001012> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001012> .
+
+<http://linked4resilience/data/integrated/april2023/event86> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000243>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001013> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001013> .
+
+<http://linked4resilience/data/integrated/april2023/event87> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000244>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001014> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001014> .
+
+<http://linked4resilience/data/integrated/april2023/event88> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000249>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000852> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000852> .
+
+<http://linked4resilience/data/integrated/april2023/event89> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000250>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000875> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000875> .
+
+<http://linked4resilience/data/integrated/april2023/event9> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000016>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000141> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000141> .
+
+<http://linked4resilience/data/integrated/april2023/event90> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000254>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000876> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000876> .
+
+<http://linked4resilience/data/integrated/april2023/event91> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000256>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003240> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003240> .
+
+<http://linked4resilience/data/integrated/april2023/event92> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000257>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000902> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000902> .
+
+<http://linked4resilience/data/integrated/april2023/event93> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000259>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000966> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000966> .
+
+<http://linked4resilience/data/integrated/april2023/event94> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000268>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000982> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000982> .
+
+<http://linked4resilience/data/integrated/april2023/event95> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000269>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00000983> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00000983> .
+
+<http://linked4resilience/data/integrated/april2023/event96> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000276>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00003293> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00003293> .
+
+<http://linked4resilience/data/integrated/april2023/event97> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000284>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001117> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001117> .
+
+<http://linked4resilience/data/integrated/april2023/event98> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000286>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001196> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001196> .
+
+<http://linked4resilience/data/integrated/april2023/event99> a <http://semanticweb.cs.vu.nl/2009/11/sem/Event> ;
+    ns2:wasDerivedFrom <https://linked4resilience.eu/data/CH/April2023/00000287>,
+        <https://linked4resilience.eu/data/EOR/April2023/event/00001198> ;
+    ns1:hasPrimitiveSource <https://linked4resilience.eu/data/EOR/April2023/event/00001198> .
+

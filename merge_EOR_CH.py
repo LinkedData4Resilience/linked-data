@@ -191,32 +191,47 @@ from geopy.distance import geodesic
 import urllib.parse
 
 # Define the namespaces used in the RDF files
-schema = Namespace("http://schema.org/")
-sem = Namespace("http://semanticweb.cs.vu.nl/2009/11/sem/")
+l4r_eor_namespace_event = Namespace("https://linked4resilience.eu/data/EOR/April2023/event/")
+l4r_integrated_namespace_event = Namespace("https://linked4resilience.eu/data/integrated/April2023/event/")
+
+l4r_o_namespace = Namespace("https://linked4resilience.eu/ontology/")
+
+
+sem_namespace = Namespace("http://semanticweb.cs.vu.nl/2009/11/sem/")
+
+gno_namespace = Namespace('http://www.geonames.org/ontology#')
+gni_namespace = Namespace ('https://sws.geonames.org/')
+
+
+sdo_namespace = Namespace("https://schema.org/")
 
 # Load the first RDF file
 g1 = Graph()
-g1.parse("EOR-2023-04-30.ttl", format="ttl")
+g1.parse("converted_EOR-2023-04-30.ttl", format="ttl")
 
 # Load the second RDF file
 g2 = Graph()
-g2.parse("CH-2023-04-30.ttl", format="ttl")
+g2.parse("converted_ukr-civharm-2023-04-30.ttl", format="ttl")
 
 # Define a SPARQL query to extract the city, postalCode, lat, lng, and label values from each triple in the first RDF file
 query1 = """
-    PREFIX schema: <http://schema.org/>
-    PREFIX rdfs: <http://www.w3.org/2000/01/rdfs:>
-    SELECT ?city ?postalCode ?lat ?lng ?label ?date ?url ?addressCountry ?region
+    
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+    PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+    PREFIX ns1: <https://linked4resilience.eu/ontology/> 
+    PREFIX ns2: <http://purl.org/dc/terms/> 
+    PREFIX ns3: <https://schema.org/> 
+    SELECT ?city ?postalCode ?lat ?lng ?label ?date ?url ?addressCountry ?region ?s
     WHERE {
         ?s rdfs:label ?label ;
-           schema:city ?city ;
-           schema:postalCode ?postalCode ;
-           schema:lat ?lat ;
-           schema:lng ?lng ;
-           schema:date ?date ;
-           schema:url ?url ;
-           schema:addressCountry ?addressCountry ;
-           schema:region ?region ;
+           ns1:addressCity ?city ;
+           ns3:postalCode ?postalCode ;
+           ns3:latitude ?lat ;
+           ns3:longitude ?lng ;
+           ns2:date ?date ;
+           ns3:url ?url ;
+           ns1:addressCountry ?addressCountry ;
+           ns1:addressRegion ?region .
     }
 """
 
@@ -225,21 +240,26 @@ results1 = g1.query(query1)
 
 # Define a SPARQL query to extract the city, postalCode, lat, lng, and label values from each triple in the second RDF file
 query2 = """
-    PREFIX schema: <http://schema.org/>
-    PREFIX rdfs: <http://www.w3.org/2000/01/rdfs:>
-    SELECT ?city ?postalCode ?lat ?lng ?label ?date ?url ?addressCountry ?region
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+    PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+    PREFIX ns2: <https://linked4resilience.eu/ontology/> 
+    PREFIX ns3: <http://purl.org/dc/terms/> 
+    PREFIX ns1: <https://schema.org/> 
+    SELECT ?city ?postalCode ?lat ?lng ?label ?date ?url ?addressCountry ?region ?s
     WHERE {
         ?s rdfs:label ?label ;
-           schema:city ?city ;
-           schema:postalCode ?postalCode ;
-           schema:lat ?lat ;
-           schema:lng ?lng ;
-           schema:date ?date ;
-           schema:url ?url ;
-           schema:addressCountry ?addressCountry ;
-           schema:region ?region ;
+           ns2:addressCity ?city ;
+           ns1:postalCode ?postalCode ;
+           ns1:latitude ?lat ;
+           ns1:longitude ?lng ;
+           ns3:date ?date ;
+           ns1:url ?url ;
+           ns2:addressCountry ?addressCountry ;
+           ns2:addressRegion ?region .
     }
 """
+
+
 
 # Execute the SPARQL query on the second RDF file and extract the results
 results2 = g2.query(query2)
@@ -260,13 +280,15 @@ for row1 in results1:
     url1 = str(row1[6])
     addresCountry1 = str(row1[7])
     region1 = str(row1[8])
+    subject1 = str(row1[9])
     # Create a key for the group based on city, postalCode, lat, and lng
-    key = (city1, postalCode1, lat1, lng1)
+    key = (subject1, city1, postalCode1, lat1, lng1)
     # Check if the key exists in the dictionary
     if key not in group_dict:
         # Create a new dictionary entry for this key
-        group_dict[key] = {"addressCountry": addresCountry1, "region": region1, "city": city1, "date": date1,
+        group_dict[key] = {"subjects":[subject1],"addressCountry": addresCountry1, "region": region1, "city": city1, "date": date1,
                            "postalCode": postalCode1, "lat": lat1, "lng": lng1, "url1": url1, "labels": [label1]}
+        
 
 # Loop through the results from the second RDF file
 for row2 in results2:
@@ -280,45 +302,54 @@ for row2 in results2:
     url2 = str(row2[6])
     addresCountry2 = str(row2[7])
     region2 = str(row2[8])
+    subject2 = str(row2[9])
+    
     # Iterate over the existing groups
     for key, value in group_dict.items():
-        # Compare the cities, postalCodes, and geographical coordinates
+        # Compare the cities dates
+        
         if city2 == value["city"] and date2 == value["date"]:
-            # Check if the label has above 50% similarity with any of the existing labels in this group
-            is_similar = False
-            for existing_label in value["labels"]:
-                similarity_ratio = SequenceMatcher(None, label2, existing_label).ratio()
+            
+            
+                
+                similarity_ratio = SequenceMatcher(None, label2, value["labels"][0]).ratio()
+                print(similarity_ratio)
                 coords1 = (group_dict[key]['lat'], group_dict[key]['lng'])
+                
                 coords2 = (lat2, lng2)
-                print(coords1)
+                
                 distance_km = geodesic(coords1, coords2).km
-                if group_dict[key]["url1"] == url2: 
-                    is_similar = True
+                if group_dict[key]["url1"] == url2 and similarity_ratio > 0.55: 
+                    
                     value["labels"].append(label2)
+                    value["subjects"].append(subject2)
+                    
                  
-                elif distance_km <= 2:
-                    if similarity_ratio > 0.5 and similarity_ratio < 0.97:
-                        is_similar = True
-                        value["labels"].append(label2)
+                # elif distance_km <= 1:
+                #     if similarity_ratio > 0.55 and similarity_ratio < 0.97:
+                        
+                #         value["labels"].append(label2)
+                #         value["subjects"].append(subject2)
 
                 elif ("area" in value["labels"][0].lower()) or ("area" in label2.lower()):
                     if (distance_km <= 2) and (similarity_ratio > 0.75):
-                        is_similar = True
+                        
                         value["labels"].append(label2)
+                        value["subjects"].append(subject2)
+                        
 
 
                 elif any((keyword in value["labels"][0].lower()) or (keyword in label2.lower()) for keyword in keyword_list):
                     if (distance_km < 1) and (similarity_ratio >= 0.55):
                         is_similar = True
                         value["labels"].append(label2)
+                        value["subjects"].append(subject2)
 
                         
                        
-                if is_similar:
-                    # Remove the grouped event from the original RDF graph
-                    g1.remove((row1, None, None))
-                    g2.remove((row2, None, None))
-                    break
+             
+                    
+                    
 
 
 
@@ -334,26 +365,25 @@ for key, value in group_dict.items():
         # Generate a new subject URI for the group
         subject_uri = URIRef("http://linked4resilience/data/integrated/april2023/event" + str(group_count))
         # Add the triples for the group to the output graph
-        output_graph.add((subject_uri, RDFS.label, Literal(max(value["labels"]))))
-        if "addressCountry" in value:
-            output_graph.add((subject_uri, schema.addressCountry, Literal(value["addressCountry"])))
-        output_graph.add((subject_uri, schema.city, Literal(value["city"])))
-        output_graph.add((subject_uri, schema.date, Literal(value["date"], datatype=XSD.date)))
-        output_graph.add((subject_uri, schema.lat, Literal(value["lat"], datatype=XSD.float)))
-        output_graph.add((subject_uri, schema.lng, Literal(value["lng"], datatype=XSD.float)))
-        output_graph.add((subject_uri, schema.postalCode, Literal(value["postalCode"])))
-        if "region" in value:
-            output_graph.add((subject_uri, schema.region, Literal(value["region"])))
-        output_graph.add((subject_uri, schema.url, Literal(value["url1"], datatype=XSD.anyURI)))
-        output_graph.add((subject_uri, RDF.type, sem.Event))
+        
 
-# Add the remaining triples from the first RDF file to the output graph
-for triple in g1:
-    output_graph.add(triple)
+        output_graph.add((subject_uri, RDF.type, sem_namespace.Event))        
+        output_graph.add((subject_uri, URIRef('http:www.w3.org/ns/prov#wasDerivedFrom'), URIRef(value['subjects'][0])))
+        output_graph.add((subject_uri, l4r_o_namespace.hasPrimitiveSource, URIRef(value['subjects'][0])))
 
-# Add the remaining triples from the second RDF file to the output graph
-for triple in g2:
-    output_graph.add(triple)
+        output_graph.add((subject_uri, URIRef('http:www.w3.org/ns/prov#wasDerivedFrom'), URIRef(value['subjects'][1])))
+
+
+
+
+
+# # Add the remaining triples from the first RDF file to the output graph
+# for triple in g1:
+#     output_graph.add(triple)
+
+# # Add the remaining triples from the second RDF file to the output graph
+# for triple in g2:
+#     output_graph.add(triple)
 
 # Save the output graph to a TTL file
 output_graph.serialize("Merged-2023-04-30.ttl", format="ttl")
@@ -362,10 +392,10 @@ print("Total number of groups:", group_count)
 print("Output file saved as 'Merged-2023-04-30.ttl'")
 
 
-with open("Merged-2023-04-30.ttl", 'r', encoding="utf8") as foutput:
-    ttl = foutput.read()
+# with open("Merged-2023-04-30.ttl", 'r', encoding="utf8") as foutput:
+#     ttl = foutput.read()
     
-ttl = ttl.replace('ns1:', 'schema:').replace('ns2:', 'rdfs:').replace('rdf-schema#', 'rdfs:')
+# ttl = ttl.replace('ns1:', 'schema:').replace('ns2:', 'rdfs:').replace('rdf-schema#', 'rdfs:')
 
-with open("Merged-2023-04-30.ttl", 'w',encoding="utf8") as foutput:
-    foutput.write(ttl)
+# with open("Merged-2023-04-30.ttl", 'w',encoding="utf8") as foutput:
+#     foutput.write(ttl)
