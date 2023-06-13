@@ -313,13 +313,13 @@ for row2 in results2:
             
                 
                 similarity_ratio = SequenceMatcher(None, label2, value["labels"][0]).ratio()
-                print(similarity_ratio)
+                
                 coords1 = (group_dict[key]['lat'], group_dict[key]['lng'])
                 
                 coords2 = (lat2, lng2)
                 
                 distance_km = geodesic(coords1, coords2).km
-                if group_dict[key]["url1"] == url2 and similarity_ratio > 0.55: 
+                if group_dict[key]["url1"] == url2 and similarity_ratio > 0.55 and distance_km <= 2: 
                     
                     value["labels"].append(label2)
                     value["subjects"].append(subject2)
@@ -363,7 +363,7 @@ for key, value in group_dict.items():
     if len(value["labels"]) > 1:
         group_count += 1
         # Generate a new subject URI for the group
-        subject_uri = URIRef("http://linked4resilience/data/integrated/april2023/event" + str(group_count))
+        subject_uri = URIRef("http://linked4resilience/data/integrated/april2023/event" + str(group_count).zfill(8))
         # Add the triples for the group to the output graph
         
 
