@@ -115,11 +115,11 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
 
                 rdf_graph.add((URIRef(geo_URI), sdo_namespace.longitude, Literal(longitude, datatype=XSD.float))) # updated from lng
 
-                rdf_graph.add((URIRef(event_URI), sdo_namespace.latitude, Literal(latitude, datatype=XSD.float))) # updated from lat
-                    # print ('\tlat', Literal(lat, datatype=XSD.float))
+                # rdf_graph.add((URIRef(event_URI), sdo_namespace.latitude, Literal(latitude, datatype=XSD.float))) # updated from lat
+                #     # print ('\tlat', Literal(lat, datatype=XSD.float))
 
-                rdf_graph.add((URIRef(event_URI), sdo_namespace.longitude, Literal(longitude, datatype=XSD.float))) # updated from lng
-                    # print ('\tlng', Literal(lng, datatype=XSD.float))
+                # rdf_graph.add((URIRef(event_URI), sdo_namespace.longitude, Literal(longitude, datatype=XSD.float))) # updated from lng
+                #     # print ('\tlng', Literal(lng, datatype=XSD.float))
 
             if 'date' in d:                 
                 date = d['date']
