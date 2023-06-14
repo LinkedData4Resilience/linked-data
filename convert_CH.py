@@ -9,7 +9,7 @@ import validators
 
 
 # Define namespaces
-l4r_ch_namespace_event = Namespace("https://linked4resilience.eu/data/CH/April2023/")
+l4r_ch_namespace_event = Namespace("https://linked4resilience.eu/data/CH/April2023/event/")
 l4r_o_namespace = Namespace("https://linked4resilience.eu/ontology/")
 l4r_ch_namespace_location = Namespace("https://linked4resilience.eu/data/EOR/April2023/location/")
 l4r_ch_namespace_geo = Namespace("https://linked4resilience.eu/data/EOR/April2023/geo/")
@@ -115,11 +115,11 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
 
                 rdf_graph.add((URIRef(geo_URI), sdo_namespace.longitude, Literal(longitude, datatype=XSD.float))) # updated from lng
 
-                # rdf_graph.add((URIRef(event_URI), sdo_namespace.latitude, Literal(latitude, datatype=XSD.float))) # updated from lat
-                #     # print ('\tlat', Literal(lat, datatype=XSD.float))
+                rdf_graph.add((URIRef(event_URI), sdo_namespace.latitude, Literal(latitude, datatype=XSD.float))) # updated from lat
+                    # print ('\tlat', Literal(lat, datatype=XSD.float))
 
-                # rdf_graph.add((URIRef(event_URI), sdo_namespace.longitude, Literal(longitude, datatype=XSD.float))) # updated from lng
-                #     # print ('\tlng', Literal(lng, datatype=XSD.float))
+                rdf_graph.add((URIRef(event_URI), sdo_namespace.longitude, Literal(longitude, datatype=XSD.float))) # updated from lng
+                    # print ('\tlng', Literal(lng, datatype=XSD.float))
 
             if 'date' in d:                 
                 date = d['date']
@@ -146,7 +146,8 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
                 num_url += 1
                 if validators.url(url): # if the URL is valid. Invalid URL could be https://google
                         num_validated_url += 1
-
+            else:
+                rdf_graph.add((URIRef(event_URI), sdo_namespace.url, Literal('fakeurl', datatype=XSD.anyURI)))
 
             if 'countryCode' in d:
 
@@ -160,8 +161,8 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
             # Add triples to the graph
 
             rdf_graph.add((URIRef(event_URI), RDF.type, sem_namespace.Event))
-            # rdf_graph.add((URIRef(event_URI), sdo_namespace.latitude, Literal(latitude, datatype=XSD.float)))
-            # rdf_graph.add((URIRef(event_URI), sdo_namespace.longitude, Literal(longitude, datatype=XSD.float)))
+            rdf_graph.add((URIRef(event_URI), sdo_namespace.latitude, Literal(latitude, datatype=XSD.float)))
+            rdf_graph.add((URIRef(event_URI), sdo_namespace.longitude, Literal(longitude, datatype=XSD.float)))
 
 
             

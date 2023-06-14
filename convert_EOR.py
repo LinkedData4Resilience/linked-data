@@ -174,6 +174,8 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
                     rdf_graph.add((URIRef(event_URI), RDFS.label, Literal(feature["properties"]['description'], lang="en")))
                     # print ('\thas rdfs:label: ', Literal(feature["properties"]['description']))
                     num_label += 1
+                else:
+                    rdf_graph.add((URIRef(event_URI), RDFS.label, Literal('no description', lang="en")))
 
                 if feature.get("postalCode"):
                     rdf_graph.add((URIRef(event_URI), sdo_namespace.postalCode, Literal(feature['postalCode'])))
@@ -274,19 +276,20 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
                     social_media_content_url = feature["properties"]['url']
                     rdf_graph.add((URIRef(event_URI), sdo_namespace.url, Literal(social_media_content_url, datatype=XSD.anyURI)))
                     num_url += 1
-                    if validators.url(social_media_content_url): # if the URL is valid. Invalid URL could be https://google
-                        num_validated_url += 1
 
-                        # TODO:
-                        # try:
-                        #     x = requests.get(social_media_content_url)
-                        #     if int(x.status_code >= 200 and x.status_code <= 299):
+                        
                         #         num_validated_url +=1
-                        #     else:
-                        #         print(social_media_content_url)
-                        #         print(x.status_code)
-                        # except Exception as e:
-                        #     print (e)
+                        # TODO:
+                    try:
+                        x = requests.get(social_media_content_url)
+                        if int(x.status_code >= 200 and x.status_code <= 299):
+                            num_validated_url +=1
+                            print(x.status_code)
+                        else:
+                            print(social_media_content_url)
+                            print(x.status_code)
+                    except Exception as e:
+                        print (e)
 
                 rdf_graph.add((URIRef(event_URI), RDF.type, sem_namespace.Event))
                 if comment_in_preparation != '':
@@ -308,7 +311,7 @@ print ('#(unique) cities not found ', len(cities_not_found))
 # for r in cities_not_found:
 #      print (r)
 print ('count URL: ', num_url)
-
+print ('valid URL: ', num_url)
 sorted_triples = sorted(rdf_graph, key=lambda triple: triple[0])
 sorted_graph = Graph()
 sorted_graph += sorted_triples
