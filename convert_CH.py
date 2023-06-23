@@ -89,11 +89,11 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
 
     with open("datasets/enriched_original_ukr-civharm-2023-04-30.json", encoding="utf-8") as f:
         data = json.load(f)
-        with open("CH_url_count.csv", "w", newline="") as csvfile:
-            writer = csv.writer(csvfile)
-            writer.writerow(["URL", "Response", "Request Duration"])
+        # with open("CH_url_count.csv", "w", newline="") as csvfile:
+        #     writer = csv.writer(csvfile)
+        #     writer.writerow(["URL", "Response", "Request Duration"])
         # Loop through the features in the JSON file
-            for d in data:
+        for d in data:
                 
                 if d['countryCode'] == "UA":
                     num_entry +=1
