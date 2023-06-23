@@ -1,5 +1,5 @@
-import csv
-import time
+# This file is used to convert the structered data of Civilian Harm dataset to linked data
+
 from rdflib import FOAF, RDFS, Graph, Literal, Namespace, RDF, URIRef
 import rdflib
 from rdflib.namespace import XSD
@@ -37,13 +37,8 @@ rdf_graph.bind('sem', sem_namespace)
 rdf_graph.bind('sdo', sdo_namespace)
 rdf_graph.bind('rdfs', RDFS)
 
-# with open('datasets/ukrainian_cities.json', 'r') as ukrainian_cities:
-#     geoname_uri_mappings = json.load(ukrainian_cities)
-# Open the JSON file
 
-
-
-
+# initiating entries counter 
 num_entry = 0
 num_vio = 0
 num_date = 0
@@ -73,7 +68,7 @@ with open("datasets\ch_coordinates.json") as fresult:
 GEONAMES_API_URL = 'http://api.geonames.org/searchJSON'
 GEONAMES_USERNAME = username
 
-
+# open enrichment files
 with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as original_ukrainian_cities:
     original_geoname_uri_mappings = json.load(original_ukrainian_cities)
     with open('datasets/extended-ukrainian-geoname-uri-mappings.json', 'r', encoding="utf8") as extended_ukrainian_cities:
@@ -87,6 +82,7 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
     location_id = 1
     geo_id = 1
 
+# accessing the enriched original data
     with open("datasets/enriched_original_ukr-civharm-2023-04-30.json", encoding="utf-8") as f:
         data = json.load(f)
         # with open("CH_url_count.csv", "w", newline="") as csvfile:
@@ -94,7 +90,7 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
         #     writer.writerow(["URL", "Response", "Request Duration"])
         # Loop through the features in the JSON file
         for d in data:
-                
+                # ensure that events are only in Ukraine
                 if d['countryCode'] == "UA":
                     num_entry +=1
                     event_URI = l4r_ch_namespace_event + str(event_id).zfill(8)
@@ -103,6 +99,8 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
                     coordinates = [longitude, latitude]
 
                     comment_in_preparation = ''
+
+                    # converting coorinates
                     if 'latitude'in d and 'longitude' in d:
                         latitude = d['latitude']
                         longitude = d['longitude']
@@ -123,12 +121,7 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
 
                         rdf_graph.add((URIRef(geo_URI), sdo_namespace.longitude, Literal(longitude, datatype=XSD.float))) # updated from lng
 
-                        # rdf_graph.add((URIRef(event_URI), sdo_namespace.latitude, Literal(latitude, datatype=XSD.float))) # updated from lat
-                        #     # print ('\tlat', Literal(lat, datatype=XSD.float))
-
-                        # rdf_graph.add((URIRef(event_URI), sdo_namespace.longitude, Literal(longitude, datatype=XSD.float))) # updated from lng
-                        #     # print ('\tlng', Literal(lng, datatype=XSD.float))
-
+                    # convert the date
                     if 'date' in d:                 
                         date = d['date']
                         date_obj = datetime.strptime(date, "%m/%d/%Y")
@@ -137,12 +130,12 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
                         num_date += 1
 
                     
-                    
+                    # convert description
                     if 'description' in d:
                         description = d['description']
                         rdf_graph.add((URIRef(event_URI), RDFS.label, Literal(description)))
                         num_label += 1
-
+                    # convet the postal code
                     if 'postalCode' in d:
                         postal_code = d['postalCode']
                         rdf_graph.add((URIRef(event_URI), sdo_namespace.postalCode, Literal(postal_code)))
@@ -152,41 +145,18 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
                         url = d['sources'][0]['path']
                         rdf_graph.add((URIRef(event_URI), sdo_namespace.url, Literal(url, datatype=XSD.anyURI)))
                         num_url += 1
-                        # request_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-                        # try:
-                        #     start_time = time.time()
-                        #     response = requests.get(url, timeout=5)
-                        #     if 200 <= response.status_code <= 299:
-                        #         num_validated_url += 1
-                        #     elif response.status_code == 403:
-                        #             num_403_url += 1
-                        #     elif response.status_code == 404:
-                        #         num_404_url += 1    
-                        #     request_duration = time.time() - start_time
-                        #     writer.writerow([url, response.status_code, request_duration])
-                        # except requests.Timeout:
-                        #     writer.writerow([url, "Timeout Error", None])
-                        # except Exception as e:
-                        #     writer.writerow([url, str(e), None])
                         
-                            
-                            
-                            
-                            # if validators.url(url): # if the URL is valid. Invalid URL could be https://google
-                            #         num_validated_url += 1
-                    else:
-                            rdf_graph.add((URIRef(event_URI), sdo_namespace.url, Literal('fakeurl', datatype=XSD.anyURI)))
 
                     if 'countryCode' in d:
                             
                             country = "Ukraine"
                             country_uri = rdflib.URIRef("http://sws.geonames.org/690791/")
+
                             rdf_graph.add((URIRef(event_URI), l4r_o_namespace.addressCountry, country_uri))
                             num_country += 1
-                        # Create a URI for the event using the event ID
-                    # event_URI = l4r_ch_namespace + str(event_id)
 
-                    # Add triples to the graph
+
+                    # Initiate Event 
 
                     rdf_graph.add((URIRef(event_URI), RDF.type, sem_namespace.Event))
                     # rdf_graph.add((URIRef(event_URI), sdo_namespace.latitude, Literal(latitude, datatype=XSD.float)))
@@ -195,7 +165,7 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
 
                     
 
-                    # rdf_graph.add((URIRef(event_URI), SCHEMA.addressCountry, Literal(country)))
+                    # convert Region
                     if 'region' in d:
                         region = d['region']
                         if region in geoname_uri_mappings:
@@ -206,7 +176,7 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
                             print ('The province not found!', region)
                             provinces_not_found.add(region)
                         
-
+                    # exctract city infomation
                     if 'location' in d:
                         city_list = d['location'].split(",")
                         city = city_list[0] # the informaiton comes in the format of "city, town, street"
@@ -230,24 +200,6 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
                                     num_city += 1
                                     break
                             
-                            # cities_not_found.add(city_name)
-                            # comment_in_preparation += 'According to Eyes on Russia, this event happened in '+ city_name +'. '
-                            # city_uri = Literal(city_name)
-
-                            # geonames_url = f'http://api.geonames.org/searchJSON?q={city_name}&maxRows=1&username={username}'
-                            # response = requests.get(geonames_url).json()
-                            # if 'totalResultsCount' in response and response['totalResultsCount'] > 0:
-                            #     geoname_id = response['geonames'][0]['geonameId']
-                            #     city_uri = URIRef(f'http://sws.geonames.org/{geoname_id}/')
-                            #     # print('hi')
-                            #     geoname_uri_mappings[city_name] = str(city_uri)
-                            #     # with open('ukrainian_cities.json', 'w') as uri_new:
-                            #     #     json.dump(geoname_uri_mappings, uri_new, indent=4)
-                            # else:
-                            #     city_uri = Literal(city_name)
-                            # rdf_graph.add((URIRef(event_URI), SCHEMA.city, Literal(city_uri)))
-                            
-
 
 
                     # Increment the event ID
@@ -267,7 +219,7 @@ serialized = sorted_graph.serialize(format="ttl")
 with open("converted_ukr-civharm-2023-04-30.ttl", "wb") as f:
     f.write(serialized.encode('utf-8'))
 
-
+# print the numbers
 print ('#Entry ', num_entry)
 print ('#rdfs:label ', num_label)
 print ('#postalCode ', num_postalCode)
@@ -287,44 +239,3 @@ print ('count URL: ', num_403_url)
 print ('count URL: ', num_404_url)
 
 
-
-    #
-    # with open("output_ukr-civharm-2023-04-30.ttl", 'r', encoding="utf8") as foutput:
-    #     ttl = foutput.read()
-    #
-    # ttl = ttl.replace('ns1:', 'schema:').replace('ns2:', 'sem:').replace('rdf-schema#', 'rdfs:')
-    #
-    # with open("output_ukr-civharm-2023-04-30.ttl", 'w',encoding="utf8") as foutput:
-    #     foutput.write(ttl)
-
-    # import re
-
-    # # Define the properties to extract and count
-    # properties = [
-    #     "schema:addressCountry",
-    #     "schema:city",
-    #     "schema:date",
-    #     "schema:lat",
-    #     "schema:lng",
-    #     "schema:postalCode",
-    #     "schema:region",
-    #     "schema:url",
-    #     "rdfs:label"
-    # ]
-
-    # # Read in the triples file
-    # with open("output_ukr-civharm-2023-04-30.ttl", "r", encoding='utf-8') as f:
-    #     data = f.read()
-
-    # # Iterate over the properties and count the unique entities
-    # for property_name in properties:
-    #     # Extract the property values using a regular expression pattern
-    #     pattern = re.compile(rf"{property_name}\s+(.*?)\s*;")
-    #     matches = pattern.findall(data)
-
-    #     # Count the number of unique entities
-    #     unique_entities = set(matches)
-    #     count = len(unique_entities)
-
-    #     # Print the results
-    #     print(f"{property_name}: {count} unique entities")

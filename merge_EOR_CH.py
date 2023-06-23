@@ -1,188 +1,5 @@
-# from rdflib import Graph, Literal, Namespace, RDF, URIRef
-# from rdflib.namespace import RDFS, XSD
-# from difflib import SequenceMatcher
-# from geopy.distance import geodesic
-# from difflib import SequenceMatcher
-# from geopy.distance import geodesic
-# from rdflib import Graph, Literal, Namespace, URIRef
-# from rdflib.namespace import RDFS, XSD
-# from itertools import groupby
-
-# # Create a new RDF graph for the accepted pairs
-# accepted_graph = Graph()
-
-# # Define the namespaces used in the RDF files
-# schema = Namespace("http://schema.org/")
-# sem = Namespace("http://semanticweb.cs.vu.nl/2009/11/sem/")
-
-# # Load the first RDF file
-# g1 = Graph()
-# g1.parse("EOR-2023-04-30.ttl", format="ttl")
-
-# # Define a SPARQL query to extract the city, postalCode, lat, lng, and label values from each triple in the first RDF file
-# query1 = """
-#     PREFIX schema: <http://schema.org/>
-#     PREFIX rdfs: <http://www.w3.org/2000/01/rdfs:>
-#     SELECT ?s ?city ?postalCode ?lat ?lng ?label ?date ?url
-#     WHERE {
-#         ?s rdfs:label ?label ;
-#            schema:city ?city ;
-#            schema:postalCode ?postalCode ;
-#            schema:lat ?lat ;
-#            schema:lng ?lng ;
-#            schema:date ?date ;
-#            schema:url ?url ;
-           
-#     }
-# """
-
-# # Execute the SPARQL query on the first RDF file and extract the results
-# results1 = g1.query(query1)
-
-# # Load the second RDF file
-# g2 = Graph()
-# g2.parse("CH-2023-04-30.ttl", format="ttl")
-
-# # Define a SPARQL query to extract the city, postalCode, lat, lng, and label values from each triple in the second RDF file
-# query2 = """
-#     PREFIX schema: <http://schema.org/>
-#     PREFIX rdfs: <http://www.w3.org/2000/01/rdfs:>
-#     SELECT ?s ?city ?postalCode ?lat ?lng ?label ?date ?url
-#     WHERE {
-#         ?s rdfs:label ?label ;
-#            schema:city ?city ;
-#            schema:postalCode ?postalCode ;
-#            schema:lat ?lat ;
-#            schema:lng ?lng ;
-#            schema:date ?date ;
-#            schema:url ?url ;
-           
-#     }
-# """
-
-# # Execute the SPARQL query on the second RDF file and extract the results
-# results2 = g2.query(query2)
-
-# # Create a namespace for the schema.org vocabulary
-# schema = Namespace("http://schema.org/")
-
-# # Create a namespace for the SEM namespace (assuming you have defined it)
-# sem = Namespace("http://example.org/sem/")
-
-# # Create an RDF graph to store the accepted pairs
-# accepted_graph = Graph()
-
-
-# # Create a dictionary to hold the triples from the first RDF file
-# triple_dict1 = {}
-
-# # Loop through the results from the first RDF file
-# for row in results1:
-#     # Extract the triple data
-#     subject = row[0]
-#     city = str(row[1])
-#     postalCode = str(row[2])
-#     lat = float(row[3])
-#     lng = float(row[4])
-#     label = str(row[5])
-#     date = str(row[6])
-#     url = str(row[7])
-#     # Create a key for the triple based on city, postalCode, lat, and lng
-#     key = (city, postalCode, lat, lng, date, url)
-    
-#     # Check if the key exists in the dictionary
-#     if key in triple_dict1:
-#         triple_dict1[key]["labels"].append((label, subject))
-#     else:
-#         # Create a new dictionary entry for this key
-#         triple_dict1[key] = {"city": city, "date": date, "postalCode": postalCode, "lat": lat, "lng": lng, "labels": [(label, subject)], "url": url}
-
-# # Create a dictionary to hold the triples from the second RDF file
-# triple_dict2 = {}
-
-# # Loop through the results from the second RDF file
-# for row in results2:
-#     # Extract the triple data
-#     subject = row[0]
-#     city = str(row[1])
-#     postalCode = str(row[2])
-#     lat = float(row[3])
-#     lng = float(row[4])
-#     label = str(row[5])
-#     date = str(row[6])
-#     url = str(row[7])
-#     # Create a key for the triple based on city, postalCode, lat, and lng
-#     key = (city, postalCode, lat, lng, date, url)
-    
-#     # Check if the key exists in the dictionary
-#     if key in triple_dict2:
-#         triple_dict2[key]["labels"].append((label, subject))
-#     else:
-#         # Create a new dictionary entry for this key
-#         triple_dict2[key] = {"city": city, "date": date, "postalCode": postalCode, "lat": lat, "lng": lng, "labels": [(label, subject)], "url": url}
-
-# matched_pairs = 0
-
-# # Open a file to write the accepted pairs
-# with open("duplicates_distance_2_similarity_55-95(url).txt", "w", encoding='utf-8') as f:
-#     for key1 in triple_dict1:
-#         # Loop through the keys in the second dictionary
-#         for key2 in triple_dict2:
-#             # Check if the city and date match
-#             if triple_dict1[key1]["city"] == triple_dict2[key2]["city"] and triple_dict1[key1]["date"] == triple_dict2[key2]["date"]:
-#                 # Calculate the distance between the coordinates
-#                 coords1 = (triple_dict1[key1]['lat'], triple_dict1[key1]['lng'])
-#                 coords2 = (triple_dict2[key2]['lat'], triple_dict2[key2]['lng'])
-#                 distance_km = geodesic(coords1, coords2).kilometers
-#                 # Calculate the similarity between the labels
-#                 label_similarities = []
-#                 for label1, subject1 in triple_dict1[key1]['labels']:
-#                     for label2, subject2 in triple_dict2[key2]['labels']:
-#                         similarity_ratio = SequenceMatcher(None, label1, label2).ratio()
-#                         label_similarities.append((similarity_ratio, label1, subject1, label2, subject2))
-#                 # Sort the label similarities in descending order
-#                 label_similarities.sort(reverse=True)
-                
-#                 # Check if there are any label similarities
-#                 if label_similarities:
-#                     # Group the label similarities by the first label
-#                     grouped_similarities = groupby(label_similarities, key=lambda x: x[1])
-                    
-#                     # Loop through the groups
-#                     for _, group in grouped_similarities:
-#                         group = list(group)
-#                         # Get the maximum similarity within the group
-#                         max_similarity = max(group, key=lambda x: x[0])[0]
-#                         # Get the pairs with the maximum similarity
-#                         max_similarity_pairs = [(label1, subject1, label2, subject2) for _, label1, subject1, label2, subject2 in group if _ == max_similarity]
-#                         # Check if the maximum similarity is above the threshold
-#                         if max_similarity >= 0.55:
-#                             # Get the pair with the largest label length
-#                             max_pair = max(max_similarity_pairs, key=lambda x: len(x[0]))
-#                             max_label1, max_subject1, max_label2, max_subject2 = max_pair
-#                             # Add the accepted triple to the graph
-#                             max_label_subject = URIRef(max_subject1)
-#                             accepted_graph.add((max_label_subject, RDFS.label, Literal(max_label1)))
-#                             accepted_graph.add((max_label_subject, schema.city, Literal(triple_dict1[key1]["city"])))
-#                             accepted_graph.add((max_label_subject, schema.postalCode, Literal(triple_dict1[key1]["postalCode"])))
-#                             accepted_graph.add((max_label_subject, schema.lat, Literal(triple_dict1[key1]["lat"], datatype=XSD.float)))
-#                             accepted_graph.add((max_label_subject, schema.lng, Literal(triple_dict1[key1]["lng"], datatype=XSD.float)))
-#                             accepted_graph.add((max_label_subject, schema.date, Literal(triple_dict1[key1]["date"], datatype=XSD.date)))
-#                             accepted_graph.add((max_label_subject, schema.url, Literal(triple_dict1[key1]["url"], datatype=XSD.anyURI)))
-#                             accepted_graph.add((max_label_subject, sem.hasSimilarity, Literal(max_similarity, datatype=XSD.float)))
-#                             accepted_graph.add((max_label_subject, sem.hasDistance, Literal(distance_km, datatype=XSD.float)))
-    
-#                             # Write the accepted pair to the file
-#                             f.write(f"{max_label1} ({max_subject1}) - {max_label2} ({max_subject2})\n")
-#                             matched_pairs += 1
-
-# # Save the accepted pairs in TTL format
-# accepted_graph.serialize("accepted_pairs.ttl", format="ttl")
-
-# print(f"{matched_pairs} pairs were matched.")
-
-
-
+# This file is used to preform the integrating step of the converted Eyes On Russia and Civilian Harm datasets.
+# The output will be a .ttl file of the relation of integration between the two datasets.
 
 from rdflib import Graph, Literal, Namespace, RDF, URIRef
 from rdflib.namespace import RDFS, XSD
@@ -225,15 +42,16 @@ query1 = """
     PREFIX ns2: <https://linked4resilience.eu/ontology/> 
     PREFIX ns3: <http://purl.org/dc/terms/> 
     PREFIX ns1: <https://schema.org/> 
-    SELECT ?city ?lat ?lng ?label ?date ?url ?s
+    SELECT ?city ?lat ?lng ?label ?date ?url ?s ?loc
     WHERE {
         ?s rdfs:label ?label ;
            ns2:addressCity ?city ;
-           ns1:latitude ?lat ;
-           ns1:longitude ?lng ;
+           ns1:location ?loc;
            ns3:date ?date ;
            ns1:url ?url ;
-
+        ?loc ns1:geo ?geo.
+        ?geo ns1:latitude ?lat .
+        ?geo ns1:longitude ?lng .
     }
 """
 
@@ -249,19 +67,22 @@ query2 = """
     PREFIX ns2: <https://linked4resilience.eu/ontology/> 
     PREFIX ns3: <http://purl.org/dc/terms/> 
     PREFIX ns1: <https://schema.org/> 
-    SELECT ?city ?lat ?lng ?label ?date ?url ?s
+    SELECT ?city ?lat ?lng ?label ?date ?url ?s ?loc
     WHERE {
         ?s rdfs:label ?label ;
            ns2:addressCity ?city ;
-           ns1:latitude ?lat ;
-           ns1:longitude ?lng ;
+           ns1:location ?loc;
            ns3:date ?date ;
            ns1:url ?url ;
+        ?loc ns1:geo ?geo.
+        ?geo ns1:latitude ?lat .
+        ?geo ns1:longitude ?lng .
 
     }
 """
 
-
+        #    ns1:latitude ?lat ;
+        #    ns1:longitude ?lng ;
 
 # Execute the SPARQL query on the second RDF file and extract the results
 results2 = g2.query(query2)
@@ -306,11 +127,10 @@ for row2 in results2:
     for key, value in group_dict.items():
         # Compare the cities dates
         
-        
+    # start comparing to merge the events.    
         if city2 == value["city"] and date2 == value["date"]:
             
-            
-                
+                       
                 similarity_ratio = SequenceMatcher(None, label2, value["labels"][0]).ratio()
                 
                 coords1 = (group_dict[key]['lat'], group_dict[key]['lng'])
@@ -318,6 +138,7 @@ for row2 in results2:
                 coords2 = (lat2, lng2)
                 
                 distance_km = geodesic(coords1, coords2).km
+                # condition 1 
                 if group_dict[key]["url1"][0] == url2 and similarity_ratio > 0.55 and distance_km <= 2 and len(value["labels"]) == 1: 
                     
                     value["labels"].append(label2)
@@ -325,13 +146,7 @@ for row2 in results2:
                     value["url1"].append(url2)
                     sub_present = True
                     break
-
-                # elif distance_km <= 1:
-                #     if similarity_ratio > 0.55 and similarity_ratio < 0.97:
-                        
-                #         value["labels"].append(label2)
-                #         value["subjects"].append(subject2)
-
+                # condition 2
                 elif ("area" in value["labels"][0].lower()) or ("area" in label2.lower()):
                     if (distance_km <= 2) and (similarity_ratio > 0.75) and len(value["labels"]) == 1:
                     
@@ -341,7 +156,7 @@ for row2 in results2:
                                 sub_present = True
                                 break
 
-
+                # condition 3                 
                 elif any((keyword in value["labels"][0].lower()) or (keyword in label2.lower()) for keyword in keyword_list):
                     if (distance_km < 1) and (similarity_ratio >= 0.55) and len(value["labels"]) == 1:
                  
@@ -413,26 +228,15 @@ for subject in ch_list:
 
 
 
-# # Add the remaining triples from the first RDF file to the output graph
-# for triple in g1:
-#     output_graph.add(triple)
 
-# # Add the remaining triples from the second RDF file to the output graph
-# for triple in g2:
-#     output_graph.add(triple)
+
+
 
 # Save the output graph to a TTL file
 output_graph.serialize("Merged-2023-04-30.ttl", format="ttl")
-
+# print the output numbers 
 print("Total number of groups:", match_count)
 print("Total number of merged:", id_count)
 print("Output file saved as 'Merged-2023-04-30.ttl'")
 print(len(group_dict))
 print(len(ch_list))
-# with open("Merged-2023-04-30.ttl", 'r', encoding="utf8") as foutput:
-#     ttl = foutput.read()
-    
-# ttl = ttl.replace('ns1:', 'schema:').replace('ns2:', 'rdfs:').replace('rdf-schema#', 'rdfs:')
-
-# with open("Merged-2023-04-30.ttl", 'w',encoding="utf8") as foutput:
-#     foutput.write(ttl)
