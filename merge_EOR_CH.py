@@ -48,7 +48,7 @@ query1 = """
            ns2:addressCity ?city ;
            ns1:location ?loc;
            ns3:date ?date ;
-           ns1:url ?url ;
+           ns1:url ?url .
         ?loc ns1:geo ?geo.
         ?geo ns1:latitude ?lat .
         ?geo ns1:longitude ?lng .
@@ -73,7 +73,7 @@ query2 = """
            ns2:addressCity ?city ;
            ns1:location ?loc;
            ns3:date ?date ;
-           ns1:url ?url ;
+           ns1:url ?url .
         ?loc ns1:geo ?geo.
         ?geo ns1:latitude ?lat .
         ?geo ns1:longitude ?lng .
@@ -233,7 +233,7 @@ for subject in ch_list:
 
 
 # Save the output graph to a TTL file
-output_graph.serialize("Merged-2023-04-30.ttl", format="ttl")
+output_graph.serialize("integ-2023-04-30.ttl", format="ttl")
 # print the output numbers 
 print("Total number of groups:", match_count)
 print("Total number of merged:", id_count)

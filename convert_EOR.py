@@ -26,6 +26,7 @@ with open("datasets/city_coordinates.json") as fresult:
 # Define the GeoNames API URL and username
 GEONAMES_API_URL = 'http://api.geonames.org/searchJSON'
 GEONAMES_USERNAME = username
+
 # Define namespaces
 # Registratie: linked4resilience.eu
 l4r_eor_namespace_event = Namespace("https://linked4resilience.eu/data/EOR/April2023/event/")
@@ -94,6 +95,17 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
 
         original_geoname_uri_mappings.update(extended_geoname_uri_mappings)
         geoname_uri_mappings = original_geoname_uri_mappings
+    with open("french_city_dict.json", "r") as f_file:
+        french_city_dict = json.load(f_file)
+
+
+    with open("ukrainian_city_dict.json", "r") as uk_file:
+        ukrainian_city_dict = json.load(uk_file)
+
+    with open("dutch_city_dict.json", "r") as d_file:
+        dutch_city_dict = json.load(d_file)
+    with open("english_city_dict.json", "r") as e_file:
+        english_city_dict = json.load(e_file)
 
     # Open the JSON file
     with open("datasets\enriched_original_EOR-2023-04-30.json") as fjson:
@@ -170,14 +182,14 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
                     #print ('\thas postalcode: ', Literal(feature['postalCode']))
                     num_postalCode +=1
 
-                if 'postalCode' not in feature:
-                    geonames_url = f'http://api.geonames.org/findNearbyPostalCodesJSON?lat={lat}&lng={lng}&username={username}'
-                    response = requests.get(geonames_url).json()
+                # if 'postalCode' not in feature:
+                #     geonames_url = f'http://api.geonames.org/findNearbyPostalCodesJSON?lat={lat}&lng={lng}&username={username}'
+                #     response = requests.get(geonames_url).json()
                     
-                    if 'postalCode' in response['postalCodes'][0]:
-                        postalCode = response['postalCodes'][0]['postalCode']
-                        rdf_graph.add((URIRef(event_URI), sdo_namespace.postalCode, Literal(postalCode)))
-                        num_postalCode +=1
+                    # if 'postalCode' in response['postalCodes'][0]:
+                    #     postalCode = response['postalCodes'][0]['postalCode']
+                    #     rdf_graph.add((URIRef(event_URI), sdo_namespace.postalCode, Literal(postalCode)))
+                    #     num_postalCode +=1
 
 
                 if feature["properties"].get("country"):
@@ -211,6 +223,15 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
                         city_uri = URIRef(geoname_uri_mappings[city_name])
                         rdf_graph.add((URIRef(event_URI), l4r_o_namespace.addressCity, city_uri))
                         
+                        geoname_id = geoname_uri_mappings[city_name].split("/")[-2]
+                        if geoname_id in french_city_dict:
+                            rdf_graph.add((URIRef(event_URI), l4r_o_namespace.cityName, Literal(french_city_dict[geoname_id], lang="fr")))
+                        if geoname_id in ukrainian_city_dict:
+                            rdf_graph.add((URIRef(event_URI), l4r_o_namespace.cityName, Literal(ukrainian_city_dict[geoname_id], lang="uk")))
+                        if geoname_id in dutch_city_dict:
+                            rdf_graph.add((URIRef(event_URI), l4r_o_namespace.cityName, Literal(dutch_city_dict[geoname_id], lang="nl"))) 
+                        if geoname_id in english_city_dict:
+                            rdf_graph.add((URIRef(event_URI), l4r_o_namespace.cityName, Literal(english_city_dict[geoname_id], lang="en")))          
                         num_city += 1
                     else:
                         for c in existing_results:
@@ -219,6 +240,15 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
                                 city_uri = URIRef(c['URI'])
                                 rdf_graph.add((URIRef(event_URI), l4r_o_namespace.addressCity, city_uri))
                                 
+                                geoname_id = c['URI'].split("/")[-2]
+                                if geoname_id in french_city_dict:
+                                    rdf_graph.add((URIRef(event_URI), l4r_o_namespace.cityName, Literal(french_city_dict[geoname_id], lang="fr")))
+                                if geoname_id in ukrainian_city_dict:
+                                    rdf_graph.add((URIRef(event_URI), l4r_o_namespace.cityName, Literal(ukrainian_city_dict[geoname_id], lang="uk")))
+                                if geoname_id in dutch_city_dict:
+                                    rdf_graph.add((URIRef(event_URI), l4r_o_namespace.cityName, Literal(dutch_city_dict[geoname_id], lang="nl")))
+                                if geoname_id in english_city_dict:
+                                    rdf_graph.add((URIRef(event_URI), l4r_o_namespace.cityName, Literal(english_city_dict[geoname_id], lang="en")))          
                                 num_city += 1
                                 break
 
@@ -230,6 +260,15 @@ with open('datasets/original_ukrainian_geoname_uri_mappings.json', 'r') as origi
                                 city_uri = URIRef(c['URI'])
                                 rdf_graph.add((URIRef(event_URI), l4r_o_namespace.addressCity, city_uri))
                                 
+                                geoname_id = c['URI'].split("/")[-2]
+                                if geoname_id in french_city_dict:
+                                    rdf_graph.add((URIRef(event_URI), l4r_o_namespace.cityName, Literal(french_city_dict[geoname_id], lang="fr")))
+                                if geoname_id in ukrainian_city_dict:
+                                    rdf_graph.add((URIRef(event_URI), l4r_o_namespace.cityName, Literal(ukrainian_city_dict[geoname_id], lang="uk")))    
+                                if geoname_id in dutch_city_dict:
+                                    rdf_graph.add((URIRef(event_URI), l4r_o_namespace.cityName, Literal(dutch_city_dict[geoname_id], lang="nl")))
+                                if geoname_id in english_city_dict:
+                                    rdf_graph.add((URIRef(event_URI), l4r_o_namespace.cityName, Literal(english_city_dict[geoname_id], lang="en")))          
                                 num_city += 1
                                 break
                                 
