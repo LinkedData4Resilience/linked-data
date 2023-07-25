@@ -1,4 +1,5 @@
-Introduction
+Introduction: 
+
 This GitHub repository contains the source code and resources for the research project "Converting and Enriching Geo-annotated Event Data: Integrating Information for Ukraine Resilience." The project aims to enhance the understanding of the impact of the Russian-Ukrainian conflict by integrating and enriching geo-annotated event data and providing valuable insights for resilience projects in Ukraine.
 
 Contents:
