@@ -7,5 +7,5 @@ Contents:
 -data: The data directory includes the sample and converted datasets used in the research in JSON, TTL and CSV format.
 
 -The rest of the files contain the source code for data processing, conversion, integration, and the corresponding outputted files.
-
+- In case anything unclear you could acces the thesis file to read more in depth abour the project or you could reach out to the contibuters emails: manarattar77@gmail.com  
 Thank you for visiting our repository! We hope that the resources provided here will be valuable for researchers, developers, and those interested in resilience projects and geo-annotated event data analysis. We look forward to your contributions and feedback!
