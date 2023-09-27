@@ -1,0 +1,1230 @@
+City: http://sws.geonames.org/700568/
+Label 1: Cluster munition strike which killed and wounded multiple people.
+Label 2: Cluster munition strike which killed and wounded multiple people. Vice documentary.
+Distance (km): 0.27056170787777695
+Similarity:0.8783783783783784
+coords1: (47.015035, 31.996861)
+coords2: (47.012606, 31.997083)
+url1: https://twitter.com/IsobelYeung/status/1502945723146379265?s=20&t=gMZhDR5MpcMjEDvYsYArJQ
+url2: https://twitter.com/marksnoeck/status/1509461735824146433?s=20&t=gMZhDR5MpcMjEDvYsYArJQ
+
+City: http://sws.geonames.org/700568/
+Label 1: Video of alleged cluster munitions case Nikolaev
+Label 2: [Graphicinjuries] Multiple people injured by what is reported to have been a cluster munition strike.
+Distance (km): 0.342888385499277
+Similarity:0.3708609271523179
+coords1: (46.941247, 32.038546)
+coords2: (46.944302, 32.039166)
+url1: https://t.me/informatsia_obstanovka/15905
+url2: https://twitter.com/ICTV_Fakty/status/1514915058224140291
+
+City: http://sws.geonames.org/700568/
+Label 1: Fragmentation submunitions discovered near civilian casualties location
+Label 2: Cluster munition strike which killed and wounded multiple people. Vice documentary.
+Distance (km): 0.1663777063013125
+Similarity:0.38961038961038963
+coords1: (47.013922, 31.998125)
+coords2: (47.012606, 31.997083)
+url1: https://twitter.com/marksnoeck/status/1509461743449350146
+url2: https://twitter.com/marksnoeck/status/1509461735824146433?s=20&t=gMZhDR5MpcMjEDvYsYArJQ
+
+City: http://sws.geonames.org/700568/
+Label 1: Rocket remenants and body visible in various locations.
+Label 2: Rocket motor impacted next to tram stop.
+Distance (km): 0.6973281293683504
+Similarity:0.3368421052631579
+coords1: (46.944243, 32.038506)
+coords2: (46.93802, 32.039656)
+url1: https://t.me/suspilneMykolaiv/4748
+url2: https://twitter.com/go2the5dogs/status/1500704991794896902?s=20&t=dmTcxuojEGAcHlUjiFe1WQ
+
+City: http://sws.geonames.org/550558/
+Label 1: An 9M27K "Uragan" rocket is filmed embedded on the ground
+Label 2: Munition remnants embedded in pavement
+Distance (km): 0.06146179714187054
+Similarity:0.42105263157894735
+coords1: (49.993459, 36.22358)
+coords2: (49.993108, 36.222918)
+url1: https://t.me/mikolaivukrain/8595
+url2: https://twitter.com/marksnoeck/status/1503826296773746694
+
+City: http://sws.geonames.org/550558/
+Label 1: Urugan 9M27K rocket section embedded in the centre of Kharkiv
+Label 2: Munition remnants embedded in pavement
+Distance (km): 0.051876849536115946
+Similarity:0.46464646464646464
+coords1: (49.9935, 36.22331)
+coords2: (49.993108, 36.222918)
+url1: https://twitter.com/Richard12545678/status/1503810976277315586
+url2: https://twitter.com/marksnoeck/status/1503826296773746694
+
+City: http://sws.geonames.org/550558/
+Label 1: Body on the street, burning vehicle nearby
+Label 2: [graphicbodies] Two bodies lying in street. What may be a crater is visible.
+Distance (km): 1.2318576297837658
+Similarity:0.35
+coords1: (49.988893, 36.340271)
+coords2: (49.982057, 36.353785)
+url1: https://t.me/truexanewsua/33635
+url2: https://t.me/truexanewsua/33610
+
+City: http://sws.geonames.org/550558/
+Label 1: Damage to a large retail store in centrak Kharkiv
+Label 2: Munition remnants embedded in pavement
+Distance (km): 1.7253400625967212
+Similarity:0.3448275862068966
+coords1: (49.982282, 36.240148)
+coords2: (49.993108, 36.222918)
+url1: https://t.me/truexanewsua/33281
+url2: https://twitter.com/marksnoeck/status/1503826296773746694
+
+City: http://sws.geonames.org/550558/
+Label 1: Aftermath of shelling in Kharkiv - damage to commercial infrastructure
+Label 2: Munition remnants embedded in pavement
+Distance (km): 1.696010943403659
+Similarity:0.3333333333333333
+coords1: (49.98241, 36.23977)
+coords2: (49.993108, 36.222918)
+url1: https://twitter.com/nexta_tv/status/1503614646619717632
+url2: https://twitter.com/marksnoeck/status/1503826296773746694
+
+City: http://sws.geonames.org/550558/
+Label 1: The Kharkiv Municipal Gallery damaged by strike
+Label 2: Damage caused by strike. Large crater visible.
+Distance (km): 1.4263332841822265
+Similarity:0.34408602150537637
+coords1: (49.999052, 36.236867)
+coords2: (49.987587, 36.245777)
+url1: https://twitter.com/ticklesgiants/status/1501636320426352642
+url2: https://twitter.com/ABC/status/1501592163808907266?s=20&t=hJr7WNSlDtlwzEZh3Zf3XQ
+
+City: http://sws.geonames.org/550558/
+Label 1: Multiple casualties after strike
+Label 2: Two people killed by cluster munition attack.
+Distance (km): 0.14933117372313776
+Similarity:0.33766233766233766
+coords1: (49.947173, 36.269924)
+coords2: (49.947965, 36.271604)
+url1: https://t.me/truexanewsua/38716
+url2: https://twitter.com/maria_avdv/status/1510923231028563975?s=20&t=lcnhTDcuyR75o3WjbpolKw
+
+City: http://sws.geonames.org/550558/
+Label 1: Multiple casualties after strike
+Label 2: Two people killed by cluster munition attack.
+Distance (km): 0.14933117372313776
+Similarity:0.33766233766233766
+coords1: (49.947173, 36.269924)
+coords2: (49.947965, 36.271604)
+url1: https://t.me/truexanewsua/38709
+url2: https://twitter.com/maria_avdv/status/1510923231028563975?s=20&t=lcnhTDcuyR75o3WjbpolKw
+
+City: http://sws.geonames.org/550558/
+Label 1: The consequences of shelling in Kharkiv (destroyed education centre)
+Label 2: A reported educational facility was destroyed.
+Distance (km): 0.07756417805392228
+Similarity:0.38596491228070173
+coords1: (49.919739, 36.275301)
+coords2: (49.919258, 36.274519)
+url1: https://t.me/KharkivPolitics/8026
+url2: https://t.me/truexanewsua/40769
+
+City: http://sws.geonames.org/550558/
+Label 1: Civilian severely injurded in Kharkiv
+Label 2: Smoke from Multiple Launch Rocket System strike, likely north side of Kharkiv.
+Distance (km): 0.18651569997271816
+Similarity:0.34782608695652173
+coords1: (50.032714, 36.23743)
+coords2: (50.034356, 36.237958)
+url1: https://twitter.com/EuroMaydan/status/1498263148427624448
+url2: HIDDEN
+
+City: http://sws.geonames.org/550558/
+Label 1: A civilian being treated for their injuries following shelling in Kharkiv
+Label 2: [Graphicbody covered with blanket] Aftermath of a reported shelling in Kharkiv
+Distance (km): 0.21661694406980195
+Similarity:0.4444444444444444
+coords1: (50.00986, 36.23988)
+coords2: (50.009391, 36.242813)
+url1: https://twitter.com/AlexKhrebet/status/1515682281381412864
+url2: https://t.me/truexanewsua/41907
+
+City: http://sws.geonames.org/550558/
+Label 1: Russian soldier detained
+Label 2: Munition remnant embedded in pavement.
+Distance (km): 3.3024998724938506
+Similarity:0.3548387096774194
+coords1: (50.009987, 36.285338)
+coords2: (50.003296, 36.330222)
+url1: https://twitter.com/ukrainenewstop/status/1498205627126059011
+url2: https://t.me/livekharkov/28020
+
+City: http://sws.geonames.org/550558/
+Label 1: Video 2fire and deceased civilians nearby after strike
+Label 2: Rocket motor impacted inside civilian apartment.
+Distance (km): 0.0622760593652403
+Similarity:0.34615384615384615
+coords1: (50.032384, 36.237711)
+coords2: (50.032432, 36.238577)
+url1: https://t.me/truexanewsua/26073
+url2: HIDDEN
+
+City: http://sws.geonames.org/550558/
+Label 1: Aftermath of shelling
+Label 2: [Graphicbody covered with blanket] Aftermath of a reported shelling in Kharkiv
+Distance (km): 1.2158741180869657
+Similarity:0.4158415841584158
+coords1: (49.998489, 36.241573)
+coords2: (50.009391, 36.242813)
+url1: https://twitter.com/warringtwenties/status/1515915092994502658
+url2: https://t.me/truexanewsua/41907
+
+City: http://sws.geonames.org/550558/
+Label 1: A body is covered with a blanket following a reported shelling in Kharkiv
+Label 2: Man films himself after strike stating "I'm liberated. Fucking liberated"
+Distance (km): 2.841022679764387
+Similarity:0.3561643835616438
+coords1: (50.009993, 36.243415)
+coords2: (49.986493, 36.25894)
+url1: https://t.me/truexanewsua/41907
+url2: HIDDEN
+
+City: http://sws.geonames.org/550558/
+Label 1: Damage from munition fragmentation
+Label 2: Two people killed by cluster munition attack.
+Distance (km): 0.05219451901210522
+Similarity:0.4050632911392405
+coords1: (49.948359, 36.271999)
+coords2: (49.947965, 36.271604)
+url1: https://twitter.com/maria_avdv/status/1510923231028563975
+url2: https://twitter.com/maria_avdv/status/1510923231028563975?s=20&t=lcnhTDcuyR75o3WjbpolKw
+
+City: http://sws.geonames.org/550558/
+Label 1: Bomb in front of store, injured person and foot seen near store
+Label 2: [GraphicVideo shows at least two dead, bloodied bodies lying on the street] Explosions kill at least two people and damage civilian infrastructure.
+Distance (km): 2.3750015574287273
+Similarity:0.33962264150943394
+coords1: (50.017816, 36.212535)
+coords2: (50.032544, 36.236532)
+url1: https://twitter.com/nexta_tv/status/1498261970318991366
+url2: https://t.me/voynareal/10903
+
+City: http://sws.geonames.org/550558/
+Label 1: Woman with traumatically amputated leg after artillery strike
+Label 2: [GraphicVideo shows a conscious woman whose leg has been amputated by a falling missile remnant] Civilian suffers fatal injury as the result of a falling munition remnant.
+Distance (km): 0.06258722634654627
+Similarity:0.3333333333333333
+coords1: (50.01784, 36.212691)
+coords2: (50.017367, 36.212218)
+url1: https://t.me/voynareal/10903
+url2: HIDDEN
+
+City: http://sws.geonames.org/550558/
+Label 1: Woman with traumatically amputated leg after artillery strike
+Label 2: Rocket motor impacted inside civilian apartment.
+Distance (km): 2.46478448057981
+Similarity:0.3486238532110092
+coords1: (50.01784, 36.212691)
+coords2: (50.032432, 36.238577)
+url1: https://t.me/voynareal/10903
+url2: HIDDEN
+
+City: http://sws.geonames.org/550558/
+Label 1: Destruction after strike
+Label 2: Rocket motor for cluster munitions in park path in Kharkiv
+Distance (km): 1.2713729623923407
+Similarity:0.34146341463414637
+coords1: (50.026036, 36.258353)
+coords2: (50.02589, 36.240612)
+url1: https://t.me/KharkivPolitics/6914
+url2: https://t.me/truexanewsua/35644
+
+City: http://sws.geonames.org/550558/
+Label 1: Shelling in Kharkiv, reported casualties
+Label 2: Damage to Sarzhyn Yar public park. Reportedly one women died
+Distance (km): 2.2412190711444966
+Similarity:0.38
+coords1: (50.005918, 36.236174)
+coords2: (50.025772, 36.230838)
+url1: https://twitter.com/TWMCLtd/status/1564546170969530368
+url2: https://t.me/vekha/47283
+
+City: http://sws.geonames.org/550558/
+Label 1: Damage to public bathroom in park after shelling
+Label 2: [originally GRAPHIC but blurred] Person injured/dead. Reportedly 5 killed 7 injured.
+Distance (km): 2.6486220279503314
+Similarity:0.3333333333333333
+coords1: (50.026201, 36.231157)
+coords2: (50.003004, 36.239503)
+url1: https://twitter.com/SarrahashtonIV/status/1564596957854801925
+url2: https://t.me/UA_struggle/1952
+
+City: http://sws.geonames.org/550558/
+Label 1: Damage to public bathroom in park after shelling
+Label 2: Damage to Sarzhyn Yar public park. Reportedly one women died
+Distance (km): 0.05291006047305114
+Similarity:0.5
+coords1: (50.026201, 36.231157)
+coords2: (50.025772, 36.230838)
+url1: https://twitter.com/SarrahashtonIV/status/1564596957854801925
+url2: https://t.me/vekha/47283
+
+City: http://sws.geonames.org/550558/
+Label 1: Smerch rocket embedded in the sidewalk
+Label 2: Munition remnant embedded in pavement.
+Distance (km): 0.029318303764045785
+Similarity:0.47368421052631576
+coords1: (50.003314, 36.33063)
+coords2: (50.003296, 36.330222)
+url1: https://twitter.com/ukrainenewstop/status/1498291251539591169
+url2: https://t.me/livekharkov/28020
+
+City: http://sws.geonames.org/550558/
+Label 1: Smerch rocket embedded in the sidewalk
+Label 2: Rocket motor for what appears to be a 9M55K embedded in path.
+Distance (km): 0.14810127959035232
+Similarity:0.40404040404040403
+coords1: (50.003314, 36.33063)
+coords2: (50.004483, 36.331619)
+url1: https://twitter.com/ukrainenewstop/status/1498291251539591169
+url2: https://twitter.com/2022Kharkiv/status/1499115758382723076
+
+City: http://sws.geonames.org/550558/
+Label 1: Smerch rocket embedded in the sidewalk in Saltovka near "ATB"
+Label 2: Munition remnant embedded in pavement.
+Distance (km): 0.051464148093160716
+Similarity:0.36363636363636365
+coords1: (50.003617, 36.330739)
+coords2: (50.003296, 36.330222)
+url1: https://twitter.com/2022Kharkiv/status/1498325168095125504
+url2: https://t.me/livekharkov/28020
+
+City: http://sws.geonames.org/550558/
+Label 1: Rocket motor impacted into earth.
+Label 2: Munition remnant embedded in pavement.
+Distance (km): 0.100649304785292
+Similarity:0.3380281690140845
+coords1: (50.002792, 36.329056)
+coords2: (50.003296, 36.330222)
+url1: https://twitter.com/2022Kharkiv/status/1498321124345716739
+url2: https://t.me/livekharkov/28020
+
+City: http://sws.geonames.org/550558/
+Label 1: Rocket motor impacted into earth.
+Label 2: Rocket motor for what appears to be a 9M55K embedded in path.
+Distance (km): 0.2629420520890784
+Similarity:0.5106382978723404
+coords1: (50.002792, 36.329056)
+coords2: (50.004483, 36.331619)
+url1: https://twitter.com/2022Kharkiv/status/1498321124345716739
+url2: https://twitter.com/2022Kharkiv/status/1499115758382723076
+
+City: http://sws.geonames.org/710734/
+Label 1: Munitions landing at water treatment plant
+Label 2: Chernihiv water treatment plant suffered damage after shelling.
+Distance (km): 0.27775184436148703
+Similarity:0.47619047619047616
+coords1: (51.454172, 31.236703)
+coords2: (51.452662, 31.233521)
+url1: https://www.facebook.com/%D0%9A%D0%9F-%D0%A7%D0%B5%D1%80%D0%BD%D1%96%D0%B3%D1%96%D0%B2%D0%B2%D0%BE%D0%B4%D0%BE%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB-319393874802069/photos/pcb.7190593717682016/7190590744348980
+url2: https://twitter.com/wammezz/status/1513261569890738182?s=20&t=kd79TM0CKfBEc-JS05s1sw
+
+City: http://sws.geonames.org/710734/
+Label 1: Munitions landing at water treatment plant
+Label 2: Chernihiv water treatment plant suffered damage after shelling.
+Distance (km): 0.07482891049709071
+Similarity:0.47619047619047616
+coords1: (51.453167, 31.234232)
+coords2: (51.452662, 31.233521)
+url1: https://www.facebook.com/%D0%9A%D0%9F-%D0%A7%D0%B5%D1%80%D0%BD%D1%96%D0%B3%D1%96%D0%B2%D0%B2%D0%BE%D0%B4%D0%BE%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB-319393874802069/photos/pcb.7190593717682016/7190589947682393
+url2: https://twitter.com/wammezz/status/1513261569890738182?s=20&t=kd79TM0CKfBEc-JS05s1sw
+
+City: http://sws.geonames.org/690266/
+Label 1: Shelling of a bus stop and store
+Label 2: Three people caught in explosions, reportedly by a bus stop.
+Distance (km): 0.08143553714961273
+Similarity:0.391304347826087
+coords1: (50.592517, 30.940059)
+coords2: (50.591922, 30.939389)
+url1: https://twitter.com/AlexandruC4/status/1503489621770047493
+url2: https://twitter.com/olliecarroll/status/1503370738467758081
+
+City: http://sws.geonames.org/703446/
+Label 1: Strike on Kyiv TV tower
+Label 2: [GraphicImages show three charred bodies] Three civilians killed in strike near Kyiv TV Tower.
+Distance (km): 0.05744141031370502
+Similarity:0.33613445378151263
+coords1: (50.471756, 30.453856)
+coords2: (50.471321, 30.45342)
+url1: https://twitter.com/nytimes/status/1498709681816092681?s=20&t=5-ivsUz8xgTZhb6Q5Vpntw
+url2: https://t.me/Pravda_Gerashchenko/1220
+
+City: http://sws.geonames.org/703446/
+Label 1: Strike on Kyiv TV tower
+Label 2: [GraphicImages show three charred bodies] Three civilians killed in strike near Kyiv TV Tower.
+Distance (km): 0.05744141031370502
+Similarity:0.33613445378151263
+coords1: (50.471756, 30.453856)
+coords2: (50.471321, 30.45342)
+url1: https://twitter.com/MFA_Ukraine/status/1498689753448947722?s=20&t=3FOeYhLr2KuPrw894V_MdA
+url2: https://t.me/Pravda_Gerashchenko/1220
+
+City: http://sws.geonames.org/703446/
+Label 1: Strike on Kyiv TV tower
+Label 2: [GraphicImages show three charred bodies] Three civilians killed in strike near Kyiv TV Tower.
+Distance (km): 0.05744141031370502
+Similarity:0.33613445378151263
+coords1: (50.471756, 30.453856)
+coords2: (50.471321, 30.45342)
+url1: https://t.me/uniannet/33935
+url2: https://t.me/Pravda_Gerashchenko/1220
+
+City: http://sws.geonames.org/703446/
+Label 1: Strike on Kyiv TV tower
+Label 2: [GraphicImages show three charred bodies] Three civilians killed in strike near Kyiv TV Tower.
+Distance (km): 0.05744141031370502
+Similarity:0.33613445378151263
+coords1: (50.471756, 30.453856)
+coords2: (50.471321, 30.45342)
+url1: https://twitter.com/mjluxmoore/status/1498684050692886537?s=20&t=5-ivsUz8xgTZhb6Q5Vpntw
+url2: https://t.me/Pravda_Gerashchenko/1220
+
+City: http://sws.geonames.org/703446/
+Label 1: Strike on Kyiv TV tower
+Label 2: [GraphicImages show three charred bodies] Three civilians killed in strike near Kyiv TV Tower.
+Distance (km): 0.05744141031370502
+Similarity:0.33613445378151263
+coords1: (50.471756, 30.453856)
+coords2: (50.471321, 30.45342)
+url1: https://twitter.com/ASLuhn/status/1498697887265476610?s=20&t=5-ivsUz8xgTZhb6Q5Vpntw
+url2: https://t.me/Pravda_Gerashchenko/1220
+
+City: http://sws.geonames.org/703446/
+Label 1: Three civilians killed in strike near Kyiv TV tower
+Label 2: [GraphicImages show three charred bodies] Three civilians killed in strike near Kyiv TV Tower.
+Distance (km): 0.1744363328415576
+Similarity:0.6802721088435374
+coords1: (50.472546, 30.454954)
+coords2: (50.471321, 30.45342)
+url1: https://twitter.com/aldin_ww/status/1498719965033156616?s=20&t=5-ivsUz8xgTZhb6Q5Vpntw
+url2: https://t.me/Pravda_Gerashchenko/1220
+
+City: http://sws.geonames.org/703446/
+Label 1: Fire and destruction after strike near Kyiv TV tower
+Label 2: [GraphicImages show three charred bodies] Three civilians killed in strike near Kyiv TV Tower.
+Distance (km): 0.1744363328415576
+Similarity:0.47297297297297297
+coords1: (50.472546, 30.454954)
+coords2: (50.471321, 30.45342)
+url1: https://twitter.com/MarQs__/status/1498700972243226633?s=20&t=5-ivsUz8xgTZhb6Q5Vpntw
+url2: https://t.me/Pravda_Gerashchenko/1220
+
+City: http://sws.geonames.org/703446/
+Label 1: Strike on Kyiv TV tower
+Label 2: [GraphicImages show three charred bodies] Three civilians killed in strike near Kyiv TV Tower.
+Distance (km): 0.05744141031370502
+Similarity:0.33613445378151263
+coords1: (50.471756, 30.453856)
+coords2: (50.471321, 30.45342)
+url1: https://twitter.com/SaberiFred/status/1498715284483497986?s=20&t=5-ivsUz8xgTZhb6Q5Vpntw
+url2: https://t.me/Pravda_Gerashchenko/1220
+
+City: http://sws.geonames.org/703446/
+Label 1: Firefighters in the aftermath of a bombing in Kyiv.
+Label 2: Cruise missiles strikes on Kyiv.
+Distance (km): 0.05473738278550424
+Similarity:0.40963855421686746
+coords1: (50.46277, 30.486502)
+coords2: (50.462282, 30.486403)
+url1: https://twitter.com/Osinttechnical/status/1519770544345952256
+url2: https://t.me/kievreal1/20351
+
+City: http://sws.geonames.org/703446/
+Label 1: Images from the aftermath of a strike in Kyiv
+Label 2: Cruise missiles strikes on Kyiv.
+Distance (km): 0.0392459781224597
+Similarity:0.44155844155844154
+coords1: (50.462418, 30.486913)
+coords2: (50.462282, 30.486403)
+url1: https://twitter.com/Osinttechnical/status/1519770684750184448
+url2: https://t.me/kievreal1/20351
+
+City: http://sws.geonames.org/703446/
+Label 1: Monument is damaged and dismantled in Kyiv.
+Label 2: Cruise missiles strikes on Kyiv.
+Distance (km): 3.2199277853834314
+Similarity:0.48
+coords1: (50.454248, 30.529965)
+coords2: (50.462282, 30.486403)
+url1: https://twitter.com/Ruptly/status/1519627327830990849
+url2: https://t.me/kievreal1/20351
+
+City: http://sws.geonames.org/703446/
+Label 1: Two male civilians shot by soldiers wearing Russian uniforms.
+Label 2: [Graphicpeople shot] Two men shot by soldiers wearing Russian uniforms, in Mriia, Kyiv Oblast.
+Distance (km): 0.021250054690451364
+Similarity:0.6369426751592356
+coords1: (50.437964, 30.114383)
+coords2: (50.437803, 30.114222)
+url1: https://www.bbc.com/news/world-europe-61425025
+url2: https://twitter.com/TheLeadCNN/status/1524525506288398336
+
+City: http://sws.geonames.org/703446/
+Label 1: Article with videos and photos of the fire surrounding the Kyiv TV Centre Tower.
+Label 2: [GraphicImages show three charred bodies] Three civilians killed in strike near Kyiv TV Tower.
+Distance (km): 0.0033642187027310036
+Similarity:0.38636363636363635
+coords1: (50.471351, 30.453414)
+coords2: (50.471321, 30.45342)
+url1: https://mil.in.ua/uk/news/rosiyany-bombarduvaly-kyyivskyj-teletsentr-suspilnogo-na-dorogozhychah/
+url2: https://t.me/Pravda_Gerashchenko/1220
+
+City: http://sws.geonames.org/703446/
+Label 1: Damage to the 101 Tower business centre following strike
+Label 2: Explosion damaged 101 Tower in Kyiv, which also damaged the German consulate.
+Distance (km): 0.10882876224172079
+Similarity:0.3308270676691729
+coords1: (50.439499, 30.495894)
+coords2: (50.439592, 30.497419)
+url1: https://twitter.com/nexta_tv/status/1579383097220796416
+url2: https://twitter.com/EerikNKross/status/1579377366933000192
+
+City: http://sws.geonames.org/703446/
+Label 1: Damage to the 101 Tower business centre following strike
+Label 2: Explosion damaged 101 Tower in Kyiv, which also damaged the German consulate.
+Distance (km): 0.05300431185244736
+Similarity:0.3308270676691729
+coords1: (50.439938, 30.496906)
+coords2: (50.439592, 30.497419)
+url1: https://twitter.com/JimmySecUK/status/1579364269275381761
+url2: https://twitter.com/EerikNKross/status/1579377366933000192
+
+City: http://sws.geonames.org/703446/
+Label 1: Damaged to 101 Tower in Kyiv.
+Label 2: Explosion damaged 101 Tower in Kyiv, which also damaged the German consulate.
+Distance (km): 0.003299663968006425
+Similarity:0.4716981132075472
+coords1: (50.439617, 30.497444)
+coords2: (50.439592, 30.497419)
+url1: https://www.youtube.com/watch?v=55qoSmgHtkA
+url2: https://twitter.com/EerikNKross/status/1579377366933000192
+
+City: http://sws.geonames.org/703446/
+Label 1: Civilian vehicles on fire after missile strikes.
+Label 2: Three civilians reportedly killed, at least 11 injured in a missile strike on Kyiv.
+Distance (km): 0.04184074698912593
+Similarity:0.5038167938931297
+coords1: (50.403454, 30.565419)
+coords2: (50.403098, 30.565229)
+url1: https://t.me/insiderUKR/46119
+url2: https://t.me/c/1210003725/27408
+
+City: http://sws.geonames.org/703446/
+Label 1: Civilian vehicles on fire after missile strikes.
+Label 2: Three civilians reportedly killed, at least 11 injured in a missile strike on Kyiv.
+Distance (km): 0.04184074698912593
+Similarity:0.5038167938931297
+coords1: (50.403454, 30.565419)
+coords2: (50.403098, 30.565229)
+url1: https://t.me/pravdaGerashchenko_en/21320
+url2: https://t.me/c/1210003725/27408
+
+City: http://sws.geonames.org/703446/
+Label 1: Civilian vehicles on fire after missile strikes.
+Label 2: Three civilians reportedly killed, at least 11 injured in a missile strike on Kyiv.
+Distance (km): 0.04184074698912593
+Similarity:0.5038167938931297
+coords1: (50.403454, 30.565419)
+coords2: (50.403098, 30.565229)
+url1: https://t.me/insiderUKR/46136
+url2: https://t.me/c/1210003725/27408
+
+City: http://sws.geonames.org/703446/
+Label 1: Vehicle on fire and civilian casualties after missile strike
+Label 2: Three civilians reportedly killed, at least 11 injured in a missile strike on Kyiv.
+Distance (km): 0.04184074698912593
+Similarity:0.4755244755244755
+coords1: (50.403454, 30.565419)
+coords2: (50.403098, 30.565229)
+url1: https://twitter.com/TpyxaNews/status/1596903154222002178
+url2: https://t.me/c/1210003725/27408
+
+City: http://sws.geonames.org/709716/
+Label 1: Fire at Sarmat brewery in Donetsk
+Label 2: Fire at a brewery, allegedly the result of artillery/missile strike.
+Distance (km): 0.13204364799445703
+Similarity:0.4158415841584158
+coords1: (48.019334, 37.87982)
+coords2: (48.018871, 37.88145)
+url1: https://twitter.com/Osinttechnical/status/1557470542206275585
+url2: https://twitter.com/200_zoka/status/1557472654063554561
+
+City: http://sws.geonames.org/709716/
+Label 1: Large mall on fire in Donetsk
+Label 2: Commercial centre "Galactica" on fire, reportedly as result of shelling.
+Distance (km): 0.12374214259877613
+Similarity:0.33663366336633666
+coords1: (47.944448, 37.772798)
+coords2: (47.943506, 37.771916)
+url1: https://twitter.com/typicaldonetsk/status/1562435763043958786
+url2: https://t.me/mariupol/9391
+
+City: http://sws.geonames.org/709716/
+Label 1: Damage to roof of shopping centre after reported shelling
+Label 2: Damage to the 'Continent' shopping centre in Donetsk city centre.
+Distance (km): 0.055959885633362946
+Similarity:0.5245901639344263
+coords1: (47.990427, 37.800615)
+coords2: (47.989953, 37.800363)
+url1: https://t.me/u_now/69359
+url2: https://t.me/opoveshenie/46793
+
+City: http://sws.geonames.org/702972/
+Label 1: TV tower targeted in Lisichansk
+Label 2: Strike on large store.
+Distance (km): 0.07506242571531489
+Similarity:0.33962264150943394
+coords1: (48.921314, 38.403618)
+coords2: (48.920794, 38.402965)
+url1: https://twitter.com/MarQs__/status/1498964238941007874
+url2: https://t.me/Doninside/9860
+
+City: http://sws.geonames.org/702972/
+Label 1: Shop destroyed
+Label 2: Strike on large store.
+Distance (km): 0.08710310229245585
+Similarity:0.4444444444444444
+coords1: (48.921448, 38.403619)
+coords2: (48.920794, 38.402965)
+url1: https://twitter.com/rescuero/status/1498977317690957827
+url2: https://t.me/Doninside/9860
+
+City: http://sws.geonames.org/713749/
+Label 1: Alledged kindergarten hit by missile/artillery.
+Label 2: [GraphicImage shows at least one dead person lying by a pool of blood] Kindergarten hit by cluster munition.
+Distance (km): 0.10338755704342023
+Similarity:0.3821656050955414
+coords1: (50.309797, 34.869819)
+coords2: (50.309014, 34.869037)
+url1: https://twitter.com/MitchvdKlundert/status/1497201512547860483
+url2: https://twitter.com/3TrAmvL026aJRar/status/1497195337089490945?t=tQNd4lD7kqscdr9rDf2ybg&s=19
+
+City: http://sws.geonames.org/713749/
+Label 1: Alledged kindergarten hit by missile/artillery.
+Label 2: [GraphicImage shows at least one dead person lying by a pool of blood] Kindergarten hit by cluster munition.
+Distance (km): 0.10338755704342023
+Similarity:0.3821656050955414
+coords1: (50.309797, 34.869819)
+coords2: (50.309014, 34.869037)
+url1: https://twitter.com/no_itsmyturn/status/1497184730395074562
+url2: https://twitter.com/3TrAmvL026aJRar/status/1497195337089490945?t=tQNd4lD7kqscdr9rDf2ybg&s=19
+
+City: http://sws.geonames.org/686946/
+Label 1: Destroyed drama theater in Mariupol
+Label 2: Mariupol Drama Theater destroyed in strike. Reports that the theater was being used as a shelter by a large number of civilians.
+Distance (km): 0.13168521593337768
+Similarity:0.34355828220858897
+coords1: (47.096621, 37.548727)
+coords2: (47.095672, 37.547689)
+url1: https://twitter.com/hugeglassofmilk/status/1504146348186210306
+url2: https://t.me/mariupolnow/2631
+
+City: http://sws.geonames.org/686946/
+Label 1: Mariupol' Theater destruction aftermath. Theater used as a shelter for local residents
+Label 2: Mariupol Drama Theater destroyed in strike. Reports that the theater was being used as a shelter by a large number of civilians.
+Distance (km): 0.1053965511657261
+Similarity:0.5794392523364486
+coords1: (47.096245, 37.548795)
+coords2: (47.095672, 37.547689)
+url1: https://twitter.com/KyivIndependent/status/1505233385471545354
+url2: https://t.me/mariupolnow/2631
+
+City: http://sws.geonames.org/686946/
+Label 1: Russian forces using thermobaric rocket launcher
+Label 2: TOS-1A thermobaric launch.
+Distance (km): 0.03865587932694268
+Similarity:0.5135135135135135
+coords1: (47.151671, 37.731744)
+coords2: (47.151459, 37.73134)
+url1: https://twitter.com/Reevellp/status/1505494403586138112
+url2: https://t.me/nm_dnr/7112
+
+City: http://sws.geonames.org/686946/
+Label 1: Civilian killed in explosion
+Label 2: civilian homes hit by artillery.
+Distance (km): 0.5231849994705949
+Similarity:0.4
+coords1: (47.121018, 37.681608)
+coords2: (47.116736, 37.684468)
+url1: https://t.me/mariupol/3007
+url2: https://twitter.com/IntelCrab/status/1496840102651256832?s=20&t=vjuzVkVF9AjHtNtCWTtq9Q
+
+City: http://sws.geonames.org/686946/
+Label 1: Dead civilian and destruction in Mariupol
+Label 2: Aftermath of shelling in Mariupol. Second video, presence of graves.
+Distance (km): 0.15997845439991573
+Similarity:0.3302752293577982
+coords1: (47.101208, 37.524016)
+coords2: (47.099801, 37.523574)
+url1: https://twitter.com/Militarylandnet/status/1506752529153077256
+url2: https://t.me/informatsia_obstanovka/8810
+
+City: http://sws.geonames.org/686946/
+Label 1: Damage at site where Civilian was  killed in explosion
+Label 2: civilian homes hit by artillery.
+Distance (km): 0.5231849994705949
+Similarity:0.3488372093023256
+coords1: (47.121018, 37.681608)
+coords2: (47.116736, 37.684468)
+url1: https://t.me/mariupol/3081
+url2: https://twitter.com/IntelCrab/status/1496840102651256832?s=20&t=vjuzVkVF9AjHtNtCWTtq9Q
+
+City: http://sws.geonames.org/686946/
+Label 1: Mariupol theater, used as shelter, after being hit by strike
+Label 2: Mariupol Drama Theater destroyed in strike. Reports that the theater was being used as a shelter by a large number of civilians.
+Distance (km): 0.0889357406106166
+Similarity:0.39361702127659576
+coords1: (47.095749, 37.548855)
+coords2: (47.095672, 37.547689)
+url1: https://t.me/truexanewsua/36447
+url2: https://t.me/mariupolnow/2631
+
+City: http://sws.geonames.org/686946/
+Label 1: Russian military forces near Azovstal
+Label 2: Drone footage of extensive damage to the Azovstal Iron Works
+Distance (km): 0.5961292546182827
+Similarity:0.35051546391752575
+coords1: (47.110333, 37.621112)
+coords2: (47.107504, 37.627784)
+url1: https://twitter.com/200_zoka/status/1516554358695022594
+url2: https://t.me/uniannet/48120
+
+City: http://sws.geonames.org/686946/
+Label 1: Azovstal in Mariupol smokes heavily today.
+Label 2: Fire at the Azovstal facility.
+Distance (km): 0.8762203175920606
+Similarity:0.4166666666666667
+coords1: (47.104032, 37.585923)
+coords2: (47.098103, 37.578318)
+url1: https://t.me/loordofwar/11529
+url2: https://t.me/mariupolnow/7969
+
+City: http://sws.geonames.org/686946/
+Label 1: Incendiary ammunition on Azovstal
+Label 2: Extremely clear use of incendiary munition use against Ukrainian positions in Avozstal Plant.
+Distance (km): 0.22463251739741316
+Similarity:0.4444444444444444
+coords1: (47.090347, 37.585144)
+coords2: (47.088808, 37.587061)
+url1: https://twitter.com/666_mancer/status/1525718180819263490
+url2: https://twitter.com/GirkinGirkin/status/1525815786924920835?s=20&t=KkifhdlnxOP08rz56S-c2g
+
+City: http://sws.geonames.org/686946/
+Label 1: Civilian casualty
+Label 2: civilian homes hit by artillery.
+Distance (km): 0.5349682671904641
+Similarity:0.4489795918367347
+coords1: (47.120915, 37.680973)
+coords2: (47.116736, 37.684468)
+url1: https://twitter.com/N_Waters89/status/1496846533085564929
+url2: https://twitter.com/IntelCrab/status/1496840102651256832?s=20&t=vjuzVkVF9AjHtNtCWTtq9Q
+
+City: http://sws.geonames.org/686946/
+Label 1: Image 6 Damaged street after shelling
+Label 2: Widespread damage caused by strike.
+Distance (km): 0.41217883315186343
+Similarity:0.35135135135135137
+coords1: (47.098569, 37.544312)
+coords2: (47.095335, 37.541657)
+url1: https://www.radiosvoboda.org/a/foto-mariupol-obstril/31746667.htmll
+url2: https://twitter.com/leonidragozin/status/1501590915521122306
+
+City: http://sws.geonames.org/686946/
+Label 1: Image 7Damaged street after shelling
+Label 2: Widespread damage caused by strike.
+Distance (km): 1.4677619210301165
+Similarity:0.3561643835616438
+coords1: (47.100422, 37.523816)
+coords2: (47.095335, 37.541657)
+url1: https://www.radiosvoboda.org/a/foto-mariupol-obstril/31746667.htmll
+url2: https://twitter.com/leonidragozin/status/1501590915521122306
+
+City: http://sws.geonames.org/686946/
+Label 1: Image 4 Damage to a shopping mall
+Label 2: Widespread damage caused by strike.
+Distance (km): 1.4254843808808813
+Similarity:0.34285714285714286
+coords1: (47.09361, 37.560262)
+coords2: (47.095335, 37.541657)
+url1: https://www.radiosvoboda.org/a/foto-mariupol-obstril/31746667.htmll
+url2: https://twitter.com/leonidragozin/status/1501590915521122306
+
+City: http://sws.geonames.org/706442/
+Label 1: Shots heard near crowd in Kherson protest
+Label 2: Individuals shot and injured in Kherson, reportedly at a peaceful protest.
+Distance (km): 0.0359896024305184
+Similarity:0.5043478260869565
+coords1: (46.640191, 32.613838)
+coords2: (46.640093, 32.614286)
+url1: https://t.me/suspilnekherson/9670
+url2: https://t.me/hueviyherson/14792
+
+City: http://sws.geonames.org/706442/
+Label 1: Russian military beat a civilian in Kherson
+Label 2: Individuals shot and injured in Kherson, reportedly at a peaceful protest.
+Distance (km): 0.03144048026361976
+Similarity:0.3418803418803419
+coords1: (46.640125, 32.614694)
+coords2: (46.640093, 32.614286)
+url1: https://twitter.com/SputnikATO/status/1505993032184778759?t=tBR8mcx3Sci3RZc2Kp_D2g&s=19
+url2: https://t.me/hueviyherson/14792
+
+City: http://sws.geonames.org/706442/
+Label 1: Aftermath of shelling and fire at mall
+Label 2: Shopping centre destroyed by explosion
+Distance (km): 0.12334912419273746
+Similarity:0.34210526315789475
+coords1: (46.673082, 32.642262)
+coords2: (46.672852, 32.643839)
+url1: https://twitter.com/nexta_tv/status/1500828711469342723
+url2: https://t.me/vorposte/15395
+
+City: http://sws.geonames.org/709276/
+Label 1: Explosions and gunfire to disperse protest
+Label 2: Demonstration against occupation violently dispersed.
+Distance (km): 0.11595010767630187
+Similarity:0.4842105263157895
+coords1: (47.499299, 34.657171)
+coords2: (47.498711, 34.6559)
+url1: https://t.me/ukrainetopnews/13919
+url2: https://twitter.com/markito0171/status/1510183355098312705
+
+City: http://sws.geonames.org/709276/
+Label 1: 00:24 - Russian vehicles inside Zaporizhzhya nuclear power plant
+Label 2: Zaporizhzhia nuclear power plant hit by shelling.
+Distance (km): 0.8174077271743927
+Similarity:0.5486725663716814
+coords1: (47.509351, 34.583087)
+coords2: (47.513775, 34.591754)
+url1: https://twitter.com/666_mancer/status/1555832939337883648
+url2: https://t.me/zvezdanews/88346
+
+City: http://sws.geonames.org/709276/
+Label 1: Zaporizhzhia nuclear power plant damaged by shelling.
+Label 2: Zaporizhzhia nuclear power plant hit by shelling.
+Distance (km): 0.10031736547766902
+Similarity:0.9019607843137255
+coords1: (47.514522, 34.592501)
+coords2: (47.513775, 34.591754)
+url1: https://t.me/zvezdanews/88363
+url2: https://t.me/zvezdanews/88346
+
+City: http://sws.geonames.org/709276/
+Label 1: Zaporizhzhia nuclear power plant damaged by shelling.
+Label 2: Zaporizhzhia nuclear power plant hit by shelling.
+Distance (km): 0.10031736547766902
+Similarity:0.9019607843137255
+coords1: (47.514522, 34.592501)
+coords2: (47.513775, 34.591754)
+url1: https://twitter.com/markito0171/status/1555796413145120768?s=20&t=MUtItMd8DeD_XUH_3CM8yA
+url2: https://t.me/zvezdanews/88346
+
+City: http://sws.geonames.org/709276/
+Label 1: Damage to roof at  Zaporizhzhia Nuclear Power Plant after shelling
+Label 2: Turbine halls of Zaporizhzhya NPP struck by what appears to have been high explosive artillery shell or rockets.
+Distance (km): 0.03461823498536212
+Similarity:0.38202247191011235
+coords1: (47.509286, 34.587314)
+coords2: (47.509013, 34.587093)
+url1: https://twitter.com/YWNReporter/status/1564227527241072640
+url2: https://t.me/bolshiepushki/2240
+
+City: http://sws.geonames.org/709276/
+Label 1: Damage at Zaporizhzhia NPP, within 135m of reactor 2
+Label 2: Turbine halls of Zaporizhzhya NPP struck by what appears to have been high explosive artillery shell or rockets.
+Distance (km): 0.04684715180908817
+Similarity:0.3780487804878049
+coords1: (47.509368, 34.587428)
+coords2: (47.509013, 34.587093)
+url1: https://twitter.com/YWNReporter/status/1564231070555537413
+url2: https://t.me/bolshiepushki/2240
+
+City: http://sws.geonames.org/709276/
+Label 1: Satellite imagery of the Zaporizhzhia nuclear power plant shows damage
+Label 2: Turbine halls of Zaporizhzhya NPP struck by what appears to have been high explosive artillery shell or rockets.
+Distance (km): 0.04684715180908817
+Similarity:0.37362637362637363
+coords1: (47.509368, 34.587428)
+coords2: (47.509013, 34.587093)
+url1: https://twitter.com/Maxar/status/1564275111758557185
+url2: https://t.me/bolshiepushki/2240
+
+City: http://sws.geonames.org/707565/
+Label 1: Destruction around Irpin
+Label 2: US journalist Brent Renaud killed by small arms fire in Irpin.
+Distance (km): 0.059692695540901154
+Similarity:0.3488372093023256
+coords1: (50.491088, 30.258792)
+coords2: (50.490646, 30.258315)
+url1: https://t.me/truexanewsua/32774
+url2: https://twitter.com/Militarylandnet/status/1502991282364469248?s=20
+
+City: http://sws.geonames.org/687699/
+Label 1: Column of civilian vehicles shelled near Zaporizhzhia , dead civilians visible
+Label 2: Civilian vehicle convoy attacked. At least 23 reported dead.
+Distance (km): 0.03154630318235407
+Similarity:0.43478260869565216
+coords1: (47.787125, 35.271486)
+coords2: (47.787125, 35.271065)
+url1: https://t.me/kazansky2017/4308
+url2: https://twitter.com/FedorovMykhailo/status/1575738732044775424
+
+City: http://sws.geonames.org/687699/
+Label 1: Column of civilian vehicles shelled near Zaporizhzhia
+Label 2: Civilian vehicle convoy attacked. At least 23 reported dead.
+Distance (km): 0.03154630318235407
+Similarity:0.4247787610619469
+coords1: (47.787125, 35.271486)
+coords2: (47.787125, 35.271065)
+url1: https://t.me/kazansky2017/4310
+url2: https://twitter.com/FedorovMykhailo/status/1575738732044775424
+
+City: http://sws.geonames.org/687699/
+Label 1: Column of civilian vehicles shelled near Zaporizhzhia, dead civilians visible
+Label 2: Civilian vehicle convoy attacked. At least 23 reported dead.
+Distance (km): 0.03154630318235407
+Similarity:0.43795620437956206
+coords1: (47.787125, 35.271486)
+coords2: (47.787125, 35.271065)
+url1: https://t.me/majakrainablr/1736352
+url2: https://twitter.com/FedorovMykhailo/status/1575738732044775424
+
+City: http://sws.geonames.org/687699/
+Label 1: Column of civilian vehicles shelled near Zaporizhzhia
+Label 2: Civilian vehicle convoy attacked. At least 23 reported dead.
+Distance (km): 0.03154630318235407
+Similarity:0.4247787610619469
+coords1: (47.787125, 35.271486)
+coords2: (47.787125, 35.271065)
+url1: https://t.me/rf200_nooow/11330
+url2: https://twitter.com/FedorovMykhailo/status/1575738732044775424
+
+City: http://sws.geonames.org/687699/
+Label 1: Column of civilian vehicles shelled near Zaporizhzhia
+Label 2: Civilian vehicle convoy attacked. At least 23 reported dead.
+Distance (km): 0.03154630318235407
+Similarity:0.4247787610619469
+coords1: (47.787125, 35.271486)
+coords2: (47.787125, 35.271065)
+url1: https://t.me/Ags_Donbass/107681
+url2: https://twitter.com/FedorovMykhailo/status/1575738732044775424
+
+City: http://sws.geonames.org/687699/
+Label 1: Column of civilian vehicles shelled near Zaporizhzhia
+Label 2: Civilian vehicle convoy attacked. At least 23 reported dead.
+Distance (km): 0.03154630318235407
+Similarity:0.4247787610619469
+coords1: (47.787125, 35.271486)
+coords2: (47.787125, 35.271065)
+url1: https://t.me/Ags_Donbass/107682
+url2: https://twitter.com/FedorovMykhailo/status/1575738732044775424
+
+City: http://sws.geonames.org/687699/
+Label 1: Column of civilian vehicles shelled near Zaporizhzhia, dead civilians visible
+Label 2: Civilian vehicle convoy attacked. At least 23 reported dead.
+Distance (km): 0.02037998108965102
+Similarity:0.43795620437956206
+coords1: (47.787277, 35.271217)
+coords2: (47.787125, 35.271065)
+url1: https://twitter.com/yarko/status/1575736979597053952
+url2: https://twitter.com/FedorovMykhailo/status/1575738732044775424
+
+City: http://sws.geonames.org/687699/
+Label 1: Column of civilian vehicles shelled near Zaporizhzhia, dead civilians visible
+Label 2: Civilian vehicle convoy attacked. At least 23 reported dead.
+Distance (km): 0.02037998108965102
+Similarity:0.43795620437956206
+coords1: (47.787277, 35.271217)
+coords2: (47.787125, 35.271065)
+url1: https://t.me/Pravda_Gerashchenko/44540
+url2: https://twitter.com/FedorovMykhailo/status/1575738732044775424
+
+City: http://sws.geonames.org/687699/
+Label 1: Column of civilian vehicles shelled near Zaporizhzhia, dead civilians visible
+Label 2: Civilian vehicle convoy attacked. At least 23 reported dead.
+Distance (km): 0.02037998108965102
+Similarity:0.43795620437956206
+coords1: (47.787277, 35.271217)
+coords2: (47.787125, 35.271065)
+url1: https://t.me/hueviykharkov/81837
+url2: https://twitter.com/FedorovMykhailo/status/1575738732044775424
+
+City: http://sws.geonames.org/687699/
+Label 1: Column of civilian vehicles shelled near Zaporizhzhia
+Label 2: Civilian vehicle convoy attacked. At least 23 reported dead.
+Distance (km): 0.02037998108965102
+Similarity:0.4247787610619469
+coords1: (47.787277, 35.271217)
+coords2: (47.787125, 35.271065)
+url1: https://t.me/nexta_live/37825
+url2: https://twitter.com/FedorovMykhailo/status/1575738732044775424
+
+City: http://sws.geonames.org/687699/
+Label 1: Column of civilian vehicles shelled near Zaporizhzhia
+Label 2: Civilian vehicle convoy attacked. At least 23 reported dead.
+Distance (km): 0.02037998108965102
+Similarity:0.4247787610619469
+coords1: (47.787277, 35.271217)
+coords2: (47.787125, 35.271065)
+url1: https://t.me/itsdonetsk/32754
+url2: https://twitter.com/FedorovMykhailo/status/1575738732044775424
+
+City: http://sws.geonames.org/687699/
+Label 1: Column of civilian vehicles shelled near Zaporizhzhia
+Label 2: Civilian vehicle convoy attacked. At least 23 reported dead.
+Distance (km): 0.02037998108965102
+Similarity:0.4247787610619469
+coords1: (47.787277, 35.271217)
+coords2: (47.787125, 35.271065)
+url1: https://t.me/u_now/68869
+url2: https://twitter.com/FedorovMykhailo/status/1575738732044775424
+
+City: http://sws.geonames.org/687699/
+Label 1: Column of civilian vehicles shelled near Zaporizhzhia, dead civilians visible
+Label 2: Civilian vehicle convoy attacked. At least 23 reported dead.
+Distance (km): 0.02037998108965102
+Similarity:0.43795620437956206
+coords1: (47.787277, 35.271217)
+coords2: (47.787125, 35.271065)
+url1: https://t.me/hueviyherson/26701
+url2: https://twitter.com/FedorovMykhailo/status/1575738732044775424
+
+City: http://sws.geonames.org/687699/
+Label 1: Column of civilian vehicles shelled near Zaporizhzhia, dead civilians visible
+Label 2: Civilian vehicle convoy attacked. At least 23 reported dead.
+Distance (km): 0.02037998108965102
+Similarity:0.43795620437956206
+coords1: (47.787277, 35.271217)
+coords2: (47.787125, 35.271065)
+url1: https://t.me/truexazaporozie/7071
+url2: https://twitter.com/FedorovMykhailo/status/1575738732044775424
+
+City: http://sws.geonames.org/687699/
+Label 1: Column of civilian vehicles shelled near Zaporizhzhia
+Label 2: Civilian vehicle convoy attacked. At least 23 reported dead.
+Distance (km): 0.02037998108965102
+Similarity:0.4247787610619469
+coords1: (47.787277, 35.271217)
+coords2: (47.787125, 35.271065)
+url1: https://t.me/truexazaporozie/7074
+url2: https://twitter.com/FedorovMykhailo/status/1575738732044775424
+
+City: http://sws.geonames.org/687699/
+Label 1: Destroyed civilian vehicles after strike
+Label 2: Civilian vehicle convoy attacked. At least 23 reported dead.
+Distance (km): 0.03154630318235407
+Similarity:0.42
+coords1: (47.787125, 35.271486)
+coords2: (47.787125, 35.271065)
+url1: https://t.me/RVvoenkor/27591
+url2: https://twitter.com/FedorovMykhailo/status/1575738732044775424
+
+City: http://sws.geonames.org/690688/
+Label 1: Civillian casualty from artillery strike.
+Label 2: Civilians hit by what appears to have been artillery, possibly a rocket. Appears to have been at least one fatality, possibly a child.
+Distance (km): 0.049862106199277535
+Similarity:0.3314285714285714
+coords1: (48.748938, 30.218889)
+coords2: (48.748564, 30.218515)
+url1: https://twitter.com/realistqx1/status/1496757503195029508?s=20&t=Au5uUu8TJjhHwjyynyG4ww
+url2: https://twitter.com/ragipsoylu/status/1496737243255480321?s=20&t=teqfp5yPtAKLW8Ri7PMI5g
+
+City: http://sws.geonames.org/711350/
+Label 1: Deceased civilians, one with hands tied behind back.
+Label 2: [graphicbodies] seven bodies in civilian clothes killed, at least two with hands tied behind their backs. Russian army ration packs & ammunitions container present at the site.
+Distance (km): 0.036690963362510855
+Similarity:0.4
+coords1: (50.533716, 30.210164)
+coords2: (50.53345, 30.209858)
+url1: https://t.me/uniannet/43553
+url2: https://twitter.com/J_B_E__Zorg/status/1510005388950876168?s=20&t=prSUWoFEAR6yU4M0RBE4Pg
+
+City: http://sws.geonames.org/711350/
+Label 1: [graphicbodies] seven bodies in civillian clothes killed,at least two with hands tied behind their backs. Russian army rationpacks present at the site.
+Label 2: [Graphicbodies visible] Reports of several atrocities in Bucha, including a recorded execution, and multiple people found in the basement of a dacha who have been tortured and executed.
+Distance (km): 1.7685953544892274
+Similarity:0.3764705882352941
+coords1: (50.533682, 30.210189)
+coords2: (50.542034, 30.231417)
+url1: https://apnews.com/article/russia-ukraine-business-middle-east-black-sea-religion-a97f60a50df0d8dc1e0f126a33144560/gallery/e79914a0b5064de8b4a9ddc9420af754
+url2: https://t.me/c/1210003725/10692
+
+City: http://sws.geonames.org/711350/
+Label 1: [Graphicbodies] Five bodies with hands tied behind their backs in a dark room, likely a cellar.
+Label 2: [Graphicgrave] Mass grave of both civilians and reported troops. Grave has been in use since early March.
+Distance (km): 1.9265184518799725
+Similarity:0.4411764705882353
+coords1: (50.564258, 30.212598)
+coords2: (50.547634, 30.204976)
+url1: https://twitter.com/michaelh992/status/1510610020622340101?s=20&t=wL_r3aYjyl_qkrhaz0GJ1g
+url2: https://twitter.com/olliecarroll/status/1510623861779349507?s=20&t=vibQREFw6UQvss-twzq0NQ
+
+City: http://sws.geonames.org/711350/
+Label 1: [Graphicbodies] Five bodies with hands tied behind their backs in a dark room, likely a cellar.
+Label 2: [Graphicgrave] Mass grave of both civilians and reported troops. Grave has been in use since early March.
+Distance (km): 1.9265184518799725
+Similarity:0.4411764705882353
+coords1: (50.564258, 30.212598)
+coords2: (50.547634, 30.204976)
+url1: https://www.facebook.com/arsen.avakov.1/posts/5066074476815951?notif_id=1649060132403099&notif_t=close_friend_activity&ref=notif
+url2: https://twitter.com/olliecarroll/status/1510623861779349507?s=20&t=vibQREFw6UQvss-twzq0NQ
+
+City: http://sws.geonames.org/711350/
+Label 1: [Graphicgrave] Mass grave, reportedly of both civillians and Russian troops. Grave has been in use since early March.
+Label 2: [Graphicbodies] Five bodies with hands tied behind their backs in a dark room, likely a cellar.
+Distance (km): 1.8003741934421005
+Similarity:0.3888888888888889
+coords1: (50.548252, 30.205594)
+coords2: (50.563877, 30.212217)
+url1: https://twitter.com/olliecarroll/status/1510623861779349507?s=20&t=vibQREFw6UQvss-twzq0NQ
+url2: https://twitter.com/michaelh992/status/1510610020622340101?s=20&t=wL_r3aYjyl_qkrhaz0GJ1g
+
+City: http://sws.geonames.org/711350/
+Label 1: [Graphicgrave] Mass grave, reportedly  of both civillians and Russian troops. Grave has been in use since early March.
+Label 2: [Graphicbodies] Five bodies with hands tied behind their backs in a dark room, likely a cellar.
+Distance (km): 1.8003741934421005
+Similarity:0.3870967741935484
+coords1: (50.548252, 30.205594)
+coords2: (50.563877, 30.212217)
+url1: https://www.facebook.com/watch/?v=293784559556020
+url2: https://twitter.com/michaelh992/status/1510610020622340101?s=20&t=wL_r3aYjyl_qkrhaz0GJ1g
+
+City: http://sws.geonames.org/711350/
+Label 1: Deceased man who was tied up and executed in celler
+Label 2: [Graphicbodies] Five bodies with hands tied behind their backs in a dark room, likely a cellar.
+Distance (km): 0.05024944560583167
+Similarity:0.36486486486486486
+coords1: (50.564258, 30.212598)
+coords2: (50.563877, 30.212217)
+url1: https://twitter.com/timjudah1/status/1511053441979797508?s=20&t=kHxgsrKRURPUPpF1KFurrw
+url2: https://twitter.com/michaelh992/status/1510610020622340101?s=20&t=wL_r3aYjyl_qkrhaz0GJ1g
+
+City: http://sws.geonames.org/711350/
+Label 1: A women in Bucha speaking about her husband's execution by Russian forces with his deceased body in the background
+Label 2: Woman detailing her husband's murder, with what is reportedly his body in the background
+Distance (km): 0.049957108645148775
+Similarity:0.5643564356435643
+coords1: (50.5411, 30.229109)
+coords2: (50.54077, 30.228631)
+url1: https://twitter.com/michaelh992/status/1511299069846638598
+url2: HIDDEN
+
+City: http://sws.geonames.org/9114637/
+Label 1: Russian forces capture the village of Novotoshkivske
+Label 2: City of Novotoshkivske destroyed in fighting.
+Distance (km): 0.2713182181458259
+Similarity:0.41237113402061853
+coords1: (48.72383, 38.63542)
+coords2: (48.724328, 38.63181)
+url1: https://twitter.com/ThomasVLinge/status/1518572424752734208
+url2: https://twitter.com/UN_Agency/status/1518622431832850435
+
+City: http://sws.geonames.org/698738/
+Label 1: Damaged wine shop after Russian rocket attack
+Label 2: Wine store damaged in explosion.
+Distance (km): 0.07116244848675528
+Similarity:0.36363636363636365
+coords1: (46.5632, 30.83007)
+coords2: (46.562757, 30.8294)
+url1: https://t.me/truexanewsua/46147
+url2: https://t.me/uniannet/53655
+
+City: http://sws.geonames.org/709930/
+Label 1: Destruction after strike
+Label 2: Homes destroyed in an airstrike in Dnipro suburb
+Distance (km): 0.05715456159412494
+Similarity:0.4166666666666667
+coords1: (48.477561, 34.979277)
+coords2: (48.477089, 34.978971)
+url1: https://t.me/truexanewsua/31823
+url2: https://t.me/dsns_telegram/4617
+
+City: http://sws.geonames.org/709930/
+Label 1: Destruction after strike
+Label 2: Homes destroyed in an airstrike in Dnipro suburb
+Distance (km): 0.05715456159412494
+Similarity:0.4166666666666667
+coords1: (48.477561, 34.979277)
+coords2: (48.477089, 34.978971)
+url1: https://t.me/uniannet/37238
+url2: https://t.me/dsns_telegram/4617
+
+City: http://sws.geonames.org/707753/
+Label 1: Fire at the Stirol Chemical plant in Horlivka
+Label 2: "Stirol" chemical plant on fire.
+Distance (km): 0.19780334497948715
+Similarity:0.6233766233766234
+coords1: (48.297829, 38.101016)
+coords2: (48.296121, 38.100271)
+url1: https://twitter.com/hochu_dodomu/status/1558098000173490177
+url2: https://t.me/nexta_live/34503
+
+City: http://sws.geonames.org/699311/
+Label 1: Civilian shot by Russian forces
+Label 2: Civilian shot in leg at reported protest
+Distance (km): 0.006252264293388379
+Similarity:0.5915492957746479
+coords1: (49.536353, 39.105542)
+coords2: (49.536343, 39.105627)
+url1: https://twitter.com/IAPonomarenko/status/1500140441949380611
+url2: https://twitter.com/police_kyiv_obl/status/1500029178443448324?s=20&t=w5AvDOyFJZ_Dd-tDKq5xPA
+
+City: http://sws.geonames.org/699311/
+Label 1: Soldiers appear to shoot a Ukrainian civilian in the leg at a protest
+Label 2: Civilian shot in leg at reported protest
+Distance (km): 0.005706084355824805
+Similarity:0.47706422018348627
+coords1: (49.536386, 39.10567)
+coords2: (49.536343, 39.105627)
+url1: https://twitter.com/aldin_ww/status/1500126664952623112
+url2: https://twitter.com/police_kyiv_obl/status/1500029178443448324?s=20&t=w5AvDOyFJZ_Dd-tDKq5xPA
+
+City: http://sws.geonames.org/699311/
+Label 1: Soldiers appear to shoot a Ukrainian civilian in the leg at a protest
+Label 2: Civilian shot in leg at reported protest
+Distance (km): 0.005706084355824805
+Similarity:0.47706422018348627
+coords1: (49.536386, 39.10567)
+coords2: (49.536343, 39.105627)
+url1: https://www.youtube.com/watch?v=lPdlUQHIkYA
+url2: https://twitter.com/police_kyiv_obl/status/1500029178443448324?s=20&t=w5AvDOyFJZ_Dd-tDKq5xPA
+
+City: http://sws.geonames.org/7525990/
+Label 1: Explosion on the grounds of the South Ukraine Nuclear Power Plant.
+Label 2: Nuclear power plant struck by missile.
+Distance (km): 0.11585639257817129
+Similarity:0.34615384615384615
+coords1: (47.805816, 31.227905)
+coords2: (47.804774, 31.227906)
+url1: https://www.theguardian.com/world/live/2022/sep/19/russia-ukraine-war-live-updates-ukrainian-military-says-russian-attacks-repelled-in-kharkiv-and-kherson?CMP=Share_iOSApp_Other
+url2: https://twitter.com/Osinttechnical/status/1571744180300353543
+
+City: http://sws.geonames.org/7525990/
+Label 1: Explosion on the grounds of the South Ukraine Nuclear Power Plant.
+Label 2: Nuclear power plant struck by missile.
+Distance (km): 0.11585639257817129
+Similarity:0.34615384615384615
+coords1: (47.805816, 31.227905)
+coords2: (47.804774, 31.227906)
+url1: https://twitter.com/DefenceU/status/1571769706381467648?s=20&t=c-OIUI6rqeTGro1Sh5Vgvg
+url2: https://twitter.com/Osinttechnical/status/1571744180300353543
+
+City: http://sws.geonames.org/7525990/
+Label 1: Damage on the grounds of the South Ukraine Nuclear Power Plant.
+Label 2: Nuclear power plant struck by missile.
+Distance (km): 0.11585639257817129
+Similarity:0.3564356435643564
+coords1: (47.805816, 31.227905)
+coords2: (47.804774, 31.227906)
+url1: https://t.me/energoatom_ua/9688
+url2: https://twitter.com/Osinttechnical/status/1571744180300353543
+
